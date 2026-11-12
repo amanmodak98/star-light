@@ -1,0 +1,1527 @@
+{
+  "method": {
+    "design_signature": "material, bulb count, bulb base, power source, width, depth, height, canopy — finish excluded",
+    "variant_rule": "same design signature AND (>=50% shared gallery photos OR >=45% description word overlap)",
+    "relisting_rule": "same design signature AND same normalised finish AND (>=30% shared photos OR >=50% description overlap)"
+  },
+  "variant_family_count": 23,
+  "products_in_families": 53,
+  "relisting_pairs": [
+    {
+      "a": "510",
+      "b": "512",
+      "reasons": [
+        "RE-LISTING: same finish (Red) + same design",
+        "copy similarity 53% · title similarity 75%"
+      ]
+    }
+  ],
+  "families": [
+    {
+      "members": [
+        {
+          "id": "330",
+          "product_code": "BT034",
+          "title": "Red 2 Light Wall Sconce, Colorful Wall Lamp, Modern Bedroom Lighting, White Shade Sconce, Living Room Light, Hallway & Entryway Decor Design red",
+          "finish": "Red",
+          "category": "horizontal-lights",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/horizontal-lights/330/red-2-light-wall-sconce-colorful-wall-lamp-modern-bedroom-lighting-white-shade-sconce-living-room-light-hallway-entryway-decor-design",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/785488992.png",
+            "https://beautyartlights.com/media/product/920290079.png",
+            "https://beautyartlights.com/media/product/619834964.png",
+            "https://beautyartlights.com/media/product/503184339.png",
+            "https://beautyartlights.com/media/product/194651984.png",
+            "https://beautyartlights.com/media/product/283980484.jpg"
+          ],
+          "description_chars": 937
+        },
+        {
+          "id": "332",
+          "product_code": "BT035",
+          "title": "Matte Black 2 Light Wall Sconce, Double Wall Lamp, Metal Sconce with White Fabric Shades, Modern Wall Lighting, Bedroom Sconce, Dining Room black",
+          "finish": "Matte Black",
+          "category": "horizontal-lights",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/horizontal-lights/332/matte-black-2-light-wall-sconce-double-wall-lamp-metal-sconce-with-white-fabric-shades-modern-wall-lighting-bedroom-sconce-dining-room",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/331628576.png",
+            "https://beautyartlights.com/media/product/621849357.png",
+            "https://beautyartlights.com/media/product/304797882.png",
+            "https://beautyartlights.com/media/product/925634414.png",
+            "https://beautyartlights.com/media/product/534568346.png",
+            "https://beautyartlights.com/media/product/644768854.jpg"
+          ],
+          "description_chars": 874
+        },
+        {
+          "id": "333",
+          "product_code": "BT036",
+          "title": "Green 2 Light Wall Sconce, Modern Wall Lamp, Sculptural Sconce, Curved Arm Lighting, White Fabric Shades, Living Room Bedroom Hallway Décor Green",
+          "finish": "Green",
+          "category": "horizontal-lights",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/horizontal-lights/333/green-2-light-wall-sconce-modern-wall-lamp-sculptural-sconce-curved-arm-lighting-white-fabric-shades-living-room-bedroom-hallway-dcor",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/506603466.png",
+            "https://beautyartlights.com/media/product/196078057.png",
+            "https://beautyartlights.com/media/product/461871476.png",
+            "https://beautyartlights.com/media/product/120017465.png",
+            "https://beautyartlights.com/media/product/347489909.png",
+            "https://beautyartlights.com/media/product/657450908.jpg"
+          ],
+          "description_chars": 907
+        }
+      ],
+      "finishes": [
+        "Green",
+        "Matte Black",
+        "Red"
+      ],
+      "pair_reasons": [
+        {
+          "ids": [
+            "330",
+            "332"
+          ],
+          "reasons": [
+            "copy similarity 47%"
+          ]
+        },
+        {
+          "ids": [
+            "330",
+            "333"
+          ],
+          "reasons": [
+            "copy similarity 51%"
+          ]
+        },
+        {
+          "ids": [
+            "332",
+            "333"
+          ],
+          "reasons": [
+            "copy similarity 47%"
+          ]
+        }
+      ]
+    },
+    {
+      "members": [
+        {
+          "id": "399",
+          "product_code": "BT095",
+          "title": "Matte Black Hanging Light, Industrial Pendant Lamp, Modern Ceiling Light, Vintage Kitchen Lighting, Black Pendant Fixture Modern Ceiling.",
+          "finish": "Matte Black",
+          "category": "hanging-lights",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/hanging-lights/399/matte-black-hanging-light-industrial-pendant-lamp-modern-ceiling-light-vintage-kitchen-lighting-black-pendant-fixture-modern-ceiling",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/131406299.png",
+            "https://beautyartlights.com/media/product/520237638.png",
+            "https://beautyartlights.com/media/product/651294491.png",
+            "https://beautyartlights.com/media/product/197661888.png",
+            "https://beautyartlights.com/media/product/263032775.png",
+            "https://beautyartlights.com/media/product/244894232.jpg"
+          ],
+          "description_chars": 898
+        },
+        {
+          "id": "400",
+          "product_code": "BT096",
+          "title": "Antique Brass Hanging Light, Vintage Pendant Lamp, Brass Ceiling Light, Industrial Kitchen Lighting Modern Dining Room Elegant Ceiling decor",
+          "finish": "Antique Brass",
+          "category": "hanging-lights",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/hanging-lights/400/antique-brass-hanging-light-vintage-pendant-lamp-brass-ceiling-light-industrial-kitchen-lighting-modern-dining-room-elegant-ceiling-decor",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/642251251.png",
+            "https://beautyartlights.com/media/product/366756034.png",
+            "https://beautyartlights.com/media/product/311998080.png",
+            "https://beautyartlights.com/media/product/595387715.png",
+            "https://beautyartlights.com/media/product/438201211.png",
+            "https://beautyartlights.com/media/product/622938783.jpg"
+          ],
+          "description_chars": 752
+        },
+        {
+          "id": "401",
+          "product_code": "BT097",
+          "title": "Red Hanging Light, Red Pendant Lamp, Vintage Ceiling Light, Industrial Pendant Fixture, Modern Kitchen Dining Room Home Lighting Decoration.",
+          "finish": "Red",
+          "category": "hanging-lights",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/hanging-lights/401/red-hanging-light-red-pendant-lamp-vintage-ceiling-light-industrial-pendant-fixture-modern-kitchen-dining-room-home-lighting-decoration",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/795916221.png",
+            "https://beautyartlights.com/media/product/765781364.png",
+            "https://beautyartlights.com/media/product/175065586.png",
+            "https://beautyartlights.com/media/product/117158424.png",
+            "https://beautyartlights.com/media/product/673626765.png",
+            "https://beautyartlights.com/media/product/670314697.jpg"
+          ],
+          "description_chars": 825
+        }
+      ],
+      "finishes": [
+        "Antique Brass",
+        "Matte Black",
+        "Red"
+      ],
+      "pair_reasons": [
+        {
+          "ids": [
+            "399",
+            "400"
+          ],
+          "reasons": [
+            "copy similarity 46% · title similarity 58%"
+          ]
+        },
+        {
+          "ids": [
+            "399",
+            "401"
+          ],
+          "reasons": [
+            "copy similarity 46% · title similarity 64%"
+          ]
+        },
+        {
+          "ids": [
+            "400",
+            "401"
+          ],
+          "reasons": [
+            "copy similarity 48% · title similarity 73%"
+          ]
+        }
+      ]
+    },
+    {
+      "members": [
+        {
+          "id": "402",
+          "product_code": "BT098",
+          "title": "Red Pendant Light, Red Hanging Lamp, Industrial Light, Vintage Lighting, Modern Ceiling Lamp for Café, Dining Room and Creative Interiors.",
+          "finish": "Red",
+          "category": "hanging-lights",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/hanging-lights/402/red-pendant-light-red-hanging-lamp-industrial-light-vintage-lighting-modern-ceiling-lamp-for-caf-dining-room-and-creative-interiors",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/938302667.png",
+            "https://beautyartlights.com/media/product/567764977.png",
+            "https://beautyartlights.com/media/product/591419337.png",
+            "https://beautyartlights.com/media/product/398278665.png",
+            "https://beautyartlights.com/media/product/801447356.png",
+            "https://beautyartlights.com/media/product/639182410.png"
+          ],
+          "description_chars": 900
+        },
+        {
+          "id": "403",
+          "product_code": "BT099",
+          "title": "Antique Brass Pendant Light, Brass Hanging Lamp, Vintage Ceiling Light, Industrial Kitchen Lighting, Modern Dining Room Fixture & Home Decor",
+          "finish": "Antique Brass",
+          "category": "hanging-lights",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/hanging-lights/403/antique-brass-pendant-light-brass-hanging-lamp-vintage-ceiling-light-industrial-kitchen-lighting-modern-dining-room-fixture-home-decor",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/272156463.png",
+            "https://beautyartlights.com/media/product/431602174.png",
+            "https://beautyartlights.com/media/product/896104478.png",
+            "https://beautyartlights.com/media/product/983587789.png",
+            "https://beautyartlights.com/media/product/349487837.png",
+            "https://beautyartlights.com/media/product/174389043.png"
+          ],
+          "description_chars": 884
+        },
+        {
+          "id": "404",
+          "product_code": "BT100",
+          "title": "Matte Black Pendant Light, Black Hanging Lamp, Industrial Ceiling Light, Vintage Kitchen Lighting, Modern Dining Room Fixture Design Lights.",
+          "finish": "Matte Black",
+          "category": "hanging-lights",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/hanging-lights/404/matte-black-pendant-light-black-hanging-lamp-industrial-ceiling-light-vintage-kitchen-lighting-modern-dining-room-fixture-design-lights",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/591756115.png",
+            "https://beautyartlights.com/media/product/493544822.png",
+            "https://beautyartlights.com/media/product/883077202.png",
+            "https://beautyartlights.com/media/product/773658620.png",
+            "https://beautyartlights.com/media/product/700049034.png",
+            "https://beautyartlights.com/media/product/417060235.png"
+          ],
+          "description_chars": 836
+        }
+      ],
+      "finishes": [
+        "Antique Brass",
+        "Matte Black",
+        "Red"
+      ],
+      "pair_reasons": [
+        {
+          "ids": [
+            "402",
+            "403"
+          ],
+          "reasons": [
+            "copy similarity 61% · title similarity 58%"
+          ]
+        },
+        {
+          "ids": [
+            "402",
+            "404"
+          ],
+          "reasons": [
+            "copy similarity 59% · title similarity 54%"
+          ]
+        },
+        {
+          "ids": [
+            "403",
+            "404"
+          ],
+          "reasons": [
+            "copy similarity 63% · title similarity 62%"
+          ]
+        }
+      ]
+    },
+    {
+      "members": [
+        {
+          "id": "405",
+          "product_code": "BT101",
+          "title": "Matte Black Teapot Pendant Light, Black Hanging Lamp, Vintage Kitchen Lighting, Industrial Ceiling Light, Unique Tea Kettle Home Fixture.",
+          "finish": "Matte Black",
+          "category": "hanging-lights",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/hanging-lights/405/matte-black-teapot-pendant-light-black-hanging-lamp-vintage-kitchen-lighting-industrial-ceiling-light-unique-tea-kettle-home-fixture",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/481812747.png",
+            "https://beautyartlights.com/media/product/130020000.png",
+            "https://beautyartlights.com/media/product/703331081.png",
+            "https://beautyartlights.com/media/product/592458477.png",
+            "https://beautyartlights.com/media/product/282299734.png",
+            "https://beautyartlights.com/media/product/145258398.jpg"
+          ],
+          "description_chars": 1041
+        },
+        {
+          "id": "406",
+          "product_code": "BT102",
+          "title": "Red Teapot Pendant Light, Red Hanging Lamp, Vintage Kitchen Lighting, Industrial Ceiling Light, Unique Tea Kettle Pendant Modern Fixture.",
+          "finish": "Red",
+          "category": "hanging-lights",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/hanging-lights/406/red-teapot-pendant-light-red-hanging-lamp-vintage-kitchen-lighting-industrial-ceiling-light-unique-tea-kettle-pendant-modern-fixture",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/622350006.png",
+            "https://beautyartlights.com/media/product/203534038.png",
+            "https://beautyartlights.com/media/product/757906438.png",
+            "https://beautyartlights.com/media/product/250864608.png",
+            "https://beautyartlights.com/media/product/505460980.png",
+            "https://beautyartlights.com/media/product/537418287.jpg"
+          ],
+          "description_chars": 985
+        },
+        {
+          "id": "407",
+          "product_code": "BT103",
+          "title": "Antique Brass Teapot Pendant Light, Brass Hanging Lamp, Vintage Kitchen Lighting, Industrial Ceiling Light, Unique Tea Kettle Kitchen Island",
+          "finish": "Antique Brass",
+          "category": "hanging-lights",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/hanging-lights/407/antique-brass-teapot-pendant-light-brass-hanging-lamp-vintage-kitchen-lighting-industrial-ceiling-light-unique-tea-kettle-kitchen-island",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/401242274.png",
+            "https://beautyartlights.com/media/product/743753898.png",
+            "https://beautyartlights.com/media/product/499730142.png",
+            "https://beautyartlights.com/media/product/927301568.png",
+            "https://beautyartlights.com/media/product/788053472.png",
+            "https://beautyartlights.com/media/product/129683382.jpg"
+          ],
+          "description_chars": 1038
+        }
+      ],
+      "finishes": [
+        "Antique Brass",
+        "Matte Black",
+        "Red"
+      ],
+      "pair_reasons": [
+        {
+          "ids": [
+            "405",
+            "406"
+          ],
+          "reasons": [
+            "copy similarity 74% · title similarity 83%"
+          ]
+        },
+        {
+          "ids": [
+            "405",
+            "407"
+          ],
+          "reasons": [
+            "copy similarity 68% · title similarity 67%"
+          ]
+        },
+        {
+          "ids": [
+            "406",
+            "407"
+          ],
+          "reasons": [
+            "copy similarity 81% · title similarity 77%"
+          ]
+        }
+      ]
+    },
+    {
+      "members": [
+        {
+          "id": "445",
+          "product_code": "BT141",
+          "title": "Black Floor Lamp with 3 White Fabric Shades, Modern Matte Black Standing Light, Contemporary Tripod Style Floor Lighting Fixture for Living Room",
+          "finish": "Matte Black",
+          "category": "floor-lamps",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/floor-lamps/445/black-floor-lamp-with-3-white-fabric-shades-modern-matte-black-standing-light-contemporary-tripod-style-floor-lighting-fixture-for-living-room",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/624609577.png",
+            "https://beautyartlights.com/media/product/197764143.png",
+            "https://beautyartlights.com/media/product/491845544.png",
+            "https://beautyartlights.com/media/product/227168932.png",
+            "https://beautyartlights.com/media/product/893867014.png",
+            "https://beautyartlights.com/media/product/883206027.jpg"
+          ],
+          "description_chars": 1097
+        },
+        {
+          "id": "446",
+          "product_code": "BT142",
+          "title": "Red Floor Lamp, 3 White Fabric Shades, Matte Red Modern Standing Light, Contemporary Fixture for Living Room, Bedroom and Reading Corner.Red Floor Lamp, 3 White Fabric Shades, Matte Red Modern Standing Light, Contemporary Fixture for Living Room, Bedroom",
+          "finish": "Red",
+          "category": "floor-lamps",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/floor-lamps/446/red-floor-lamp-3-white-fabric-shades-matte-red-modern-standing-light-contemporary-fixture-for-living-room-bedroom-and-reading-cornerred-floor-lamp-3-white-fabric-shades-matte-red-modern-standing-light-contemporary-fixture-for-living-room-bedroom-and-readi",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/817003741.png",
+            "https://beautyartlights.com/media/product/892956147.png",
+            "https://beautyartlights.com/media/product/780104666.jpg",
+            "https://beautyartlights.com/media/product/985235968.png",
+            "https://beautyartlights.com/media/product/607974285.png",
+            "https://beautyartlights.com/media/product/781287815.jpg"
+          ],
+          "description_chars": 1021
+        },
+        {
+          "id": "447",
+          "product_code": "BT143",
+          "title": "Floor Lamp in Antique Brass Color Triple Head Lamp with White Fabric Shades Foot Switch and Corded Plug Lighting for Living Room Bedroom",
+          "finish": "Antique Brass",
+          "category": "floor-lamps",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/floor-lamps/447/floor-lamp-in-antique-brass-color-triple-head-lamp-with-white-fabric-shades-foot-switch-and-corded-plug-lighting-for-living-room-bedroom",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/694226454.png",
+            "https://beautyartlights.com/media/product/960642459.png",
+            "https://beautyartlights.com/media/product/120059103.png",
+            "https://beautyartlights.com/media/product/841860347.png",
+            "https://beautyartlights.com/media/product/512851286.png",
+            "https://beautyartlights.com/media/product/478407943.jpg"
+          ],
+          "description_chars": 1171
+        }
+      ],
+      "finishes": [
+        "Antique Brass",
+        "Matte Black",
+        "Red"
+      ],
+      "pair_reasons": [
+        {
+          "ids": [
+            "445",
+            "446"
+          ],
+          "reasons": [
+            "copy similarity 47% · title similarity 58%"
+          ]
+        },
+        {
+          "ids": [
+            "445",
+            "447"
+          ],
+          "reasons": [
+            "copy similarity 47%"
+          ]
+        }
+      ]
+    },
+    {
+      "members": [
+        {
+          "id": "448",
+          "product_code": "BT144",
+          "title": "Red Mouse Table Lamp, Unique Animal Figurine Lighting, Glowing Globe Bulb, Creative Decorative Lamp for Bedroom, Living Room, Kids Room. Red",
+          "finish": "Red",
+          "category": "table-lamps",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/table-lamps/448/red-mouse-table-lamp-unique-animal-figurine-lighting-glowing-globe-bulb-creative-decorative-lamp-for-bedroom-living-room-kids-room",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/309248888.png",
+            "https://beautyartlights.com/media/product/725410907.png",
+            "https://beautyartlights.com/media/product/513476791.png",
+            "https://beautyartlights.com/media/product/908940268.png",
+            "https://beautyartlights.com/media/product/222110502.png",
+            "https://beautyartlights.com/media/product/741629446.jpg"
+          ],
+          "description_chars": 982
+        },
+        {
+          "id": "449",
+          "product_code": "BT145",
+          "title": "Matte Black Mouse Table Lamp, Unique Animal Figurine Lighting, Light with Glowing Globe Bulb, Modern Decorative Lamp Bedroom, Living Room. Black",
+          "finish": "Black",
+          "category": "table-lamps",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/table-lamps/449/matte-black-mouse-table-lamp-unique-animal-figurine-lighting-light-with-glowing-globe-bulb-modern-decorative-lamp-bedroom-living-room",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/203327967.png",
+            "https://beautyartlights.com/media/product/806959802.png",
+            "https://beautyartlights.com/media/product/886797211.png",
+            "https://beautyartlights.com/media/product/397144868.png",
+            "https://beautyartlights.com/media/product/562442918.png",
+            "https://beautyartlights.com/media/product/659739892.jpg"
+          ],
+          "description_chars": 999
+        },
+        {
+          "id": "450",
+          "product_code": "BT146",
+          "title": "Gold Brass Mouse Table Lamp, Unique Animal Light, Artistic Decorative Table Light Globe Bulb, Luxury Accent Lamp for Bedroom, Living RoomGold Brass Mouse Table Lamp, Unique Animal Light, Artistic Decorative Table Light Globe Bulb, Luxury Accent Lamp for B Golden",
+          "finish": "Gold",
+          "category": "table-lamps",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/table-lamps/450/gold-brass-mouse-table-lamp-unique-animal-light-artistic-decorative-table-light-globe-bulb-luxury-accent-lamp-for-bedroom-living-roomgold-brass-mouse-table-lamp-unique-animal-light-artistic-decorative-table-light-globe-bulb-luxury-accent-lamp-for-bedroom-",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/626778339.png",
+            "https://beautyartlights.com/media/product/831542820.png",
+            "https://beautyartlights.com/media/product/664305387.png",
+            "https://beautyartlights.com/media/product/479041494.png",
+            "https://beautyartlights.com/media/product/412918543.png",
+            "https://beautyartlights.com/media/product/525021069.jpg"
+          ],
+          "description_chars": 992
+        }
+      ],
+      "finishes": [
+        "Black",
+        "Gold",
+        "Red"
+      ],
+      "pair_reasons": [
+        {
+          "ids": [
+            "448",
+            "449"
+          ],
+          "reasons": [
+            "copy similarity 49% · title similarity 71%"
+          ]
+        },
+        {
+          "ids": [
+            "448",
+            "450"
+          ],
+          "reasons": [
+            "copy similarity 51%"
+          ]
+        },
+        {
+          "ids": [
+            "449",
+            "450"
+          ],
+          "reasons": [
+            "copy similarity 48%"
+          ]
+        }
+      ]
+    },
+    {
+      "members": [
+        {
+          "id": "481",
+          "product_code": "BT177",
+          "title": "Modern Red 3 Light Floor Lamp, White Fabric Shades, Contemporary Standing Floor Light, Designer Metal Floor Lamp for Living Room, Bedroom.",
+          "finish": "Red",
+          "category": "floor-lamps",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/floor-lamps/481/modern-red-3-light-floor-lamp-white-fabric-shades-contemporary-standing-floor-light-designer-metal-floor-lamp-for-living-room-bedroom",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/260301036.png",
+            "https://beautyartlights.com/media/product/727505309.png",
+            "https://beautyartlights.com/media/product/811993230.png",
+            "https://beautyartlights.com/media/product/128763274.png",
+            "https://beautyartlights.com/media/product/407630670.png",
+            "https://beautyartlights.com/media/product/507688853.jpg"
+          ],
+          "description_chars": 867
+        },
+        {
+          "id": "482",
+          "product_code": "BT178",
+          "title": "Green 3 Light Floor Lamp, Modern Brass-Free Standing Lighting, Floor Lighting for Living Room, Bedroom, Reading Corner and Luxury Home Décor Green",
+          "finish": "Green",
+          "category": "floor-lamps",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/floor-lamps/482/green-3-light-floor-lamp-modern-brassfree-standing-lighting-floor-lighting-for-living-room-bedroom-reading-corner-and-luxury-home-dcor",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/561864967.png",
+            "https://beautyartlights.com/media/product/314708991.png",
+            "https://beautyartlights.com/media/product/277296239.png",
+            "https://beautyartlights.com/media/product/590408745.png",
+            "https://beautyartlights.com/media/product/915706114.png",
+            "https://beautyartlights.com/media/product/792024040.jpg"
+          ],
+          "description_chars": 976
+        },
+        {
+          "id": "484",
+          "product_code": "BT179",
+          "title": "Matte Black 3 Light Floor Lamp, Modern Metal Standing Floor Light for Living Room, Elegant Designer Lamp Bedroom, Reading Corner Home Decor",
+          "finish": "Matte Black",
+          "category": "floor-lamps",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/floor-lamps/484/matte-black-3-light-floor-lamp-modern-metal-standing-floor-light-for-living-room-elegant-designer-lamp-bedroom-reading-corner-home-decor",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/231846037.png",
+            "https://beautyartlights.com/media/product/677400087.png",
+            "https://beautyartlights.com/media/product/314766855.png",
+            "https://beautyartlights.com/media/product/552745660.png",
+            "https://beautyartlights.com/media/product/929626854.png",
+            "https://beautyartlights.com/media/product/861031411.jpg"
+          ],
+          "description_chars": 1033
+        }
+      ],
+      "finishes": [
+        "Green",
+        "Matte Black",
+        "Red"
+      ],
+      "pair_reasons": [
+        {
+          "ids": [
+            "481",
+            "482"
+          ],
+          "reasons": [
+            "copy similarity 49%"
+          ]
+        },
+        {
+          "ids": [
+            "482",
+            "484"
+          ],
+          "reasons": [
+            "copy similarity 60%"
+          ]
+        }
+      ]
+    },
+    {
+      "members": [
+        {
+          "id": "321",
+          "product_code": "BT025",
+          "title": "Matte Black Wall Sconce, Modern Wall Lamp, Matte Black Wall Light, White Fabric Shade Sconce, Bedroom Lighting, Living Room Lamp Minimalist Matte Black",
+          "finish": "Black",
+          "category": "wall-light",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/wall-light/321/matte-black-wall-sconce-modern-wall-lamp-matte-black-wall-light-white-fabric-shade-sconce-bedroom-lighting-living-room-lamp-minimalist",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/841361988.png",
+            "https://beautyartlights.com/media/product/359359483.png",
+            "https://beautyartlights.com/media/product/188780220.png",
+            "https://beautyartlights.com/media/product/296137961.png",
+            "https://beautyartlights.com/media/product/159508833.png",
+            "https://beautyartlights.com/media/product/808578421.jpg"
+          ],
+          "description_chars": 831
+        },
+        {
+          "id": "322",
+          "product_code": "BT026",
+          "title": "Red Wall Sconce, Colorful Modern Wall Lamp with White Shade, Statement Bedside Lighting, Artistic Metal Fixture for Bold Interior Décor Look red",
+          "finish": "Red",
+          "category": "wall-light",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/wall-light/322/red-wall-sconce-colorful-modern-wall-lamp-with-white-shade-statement-bedside-lighting-artistic-metal-fixture-for-bold-interior-dcor-look",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/962850481.png",
+            "https://beautyartlights.com/media/product/459849179.png",
+            "https://beautyartlights.com/media/product/179633584.png",
+            "https://beautyartlights.com/media/product/622410891.png",
+            "https://beautyartlights.com/media/product/668111776.png",
+            "https://beautyartlights.com/media/product/568236945.jpg"
+          ],
+          "description_chars": 826
+        }
+      ],
+      "finishes": [
+        "Black",
+        "Red"
+      ],
+      "pair_reasons": [
+        {
+          "ids": [
+            "321",
+            "322"
+          ],
+          "reasons": [
+            "copy similarity 57%"
+          ]
+        }
+      ]
+    },
+    {
+      "members": [
+        {
+          "id": "326",
+          "product_code": "BT030",
+          "title": "Matte Black Wall Sconce Modern Wavy Wall Sconce, Luxury Minimalist Bedroom Bedside Lamp, Scandinavian Lighting Fixture Lights Design Lamp black",
+          "finish": "Matte Black",
+          "category": "wall-light",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/wall-light/326/matte-black-wall-sconce-modern-wavy-wall-sconce-luxury-minimalist-bedroom-bedside-lamp-scandinavian-lighting-fixture-lights-design-lamp",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/800966103.png",
+            "https://beautyartlights.com/media/product/518860231.png",
+            "https://beautyartlights.com/media/product/341717437.png",
+            "https://beautyartlights.com/media/product/356859151.png",
+            "https://beautyartlights.com/media/product/191830022.png",
+            "https://beautyartlights.com/media/product/960568289.jpg"
+          ],
+          "description_chars": 864
+        },
+        {
+          "id": "327",
+          "product_code": "BT031",
+          "title": "Golden Wall Sconce with White Fabric Shade | Modern Wavy Gold Wall Light for Bedroom, Living Room, Hallway & Luxury Décor golden",
+          "finish": "Gold Brass",
+          "category": "wall-light",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/wall-light/327/golden-wall-sconce-with-white-fabric-shade-modern-wavy-gold-wall-light-for-bedroom-living-room-hallway-luxury-dcor",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/552132143.png",
+            "https://beautyartlights.com/media/product/336594996.png",
+            "https://beautyartlights.com/media/product/471122496.png",
+            "https://beautyartlights.com/media/product/341954076.png",
+            "https://beautyartlights.com/media/product/264208931.png",
+            "https://beautyartlights.com/media/product/224613328.jpg"
+          ],
+          "description_chars": 903
+        }
+      ],
+      "finishes": [
+        "Gold Brass",
+        "Matte Black"
+      ],
+      "pair_reasons": [
+        {
+          "ids": [
+            "326",
+            "327"
+          ],
+          "reasons": [
+            "copy similarity 48%"
+          ]
+        }
+      ]
+    },
+    {
+      "members": [
+        {
+          "id": "335",
+          "product_code": "BT038",
+          "title": "Red Three Arm Curved Wall Sconce, Bold Artistic Modern Wall Light, Luxury Lighting Fixture, Statement Interior Décor , Living Room Lighting red",
+          "finish": "Red",
+          "category": "horizontal-lights",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/horizontal-lights/335/red-three-arm-curved-wall-sconce-bold-artistic-modern-wall-light-luxury-lighting-fixture-statement-interior-dcor-living-room-lighting",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/866888259.png",
+            "https://beautyartlights.com/media/product/590322089.png",
+            "https://beautyartlights.com/media/product/752611759.png",
+            "https://beautyartlights.com/media/product/544826297.png",
+            "https://beautyartlights.com/media/product/712290242.png",
+            "https://beautyartlights.com/media/product/262306540.png"
+          ],
+          "description_chars": 811
+        },
+        {
+          "id": "336",
+          "product_code": "BT039",
+          "title": "Matte Black 3 Light Wall Sconce, Triple Wall Lamp, Metal Wall Light White Fabric Shades, Modern Bathroom, Bedroom Lighting, Dining Room. black",
+          "finish": "Matte Black",
+          "category": "horizontal-lights",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/horizontal-lights/336/matte-black-3-light-wall-sconce-triple-wall-lamp-metal-wall-light-white-fabric-shades-modern-bathroom-bedroom-lighting-dining-room",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/488817901.png",
+            "https://beautyartlights.com/media/product/403782022.png",
+            "https://beautyartlights.com/media/product/451616333.png",
+            "https://beautyartlights.com/media/product/448988440.png",
+            "https://beautyartlights.com/media/product/243472674.png",
+            "https://beautyartlights.com/media/product/901772191.png"
+          ],
+          "description_chars": 836
+        }
+      ],
+      "finishes": [
+        "Matte Black",
+        "Red"
+      ],
+      "pair_reasons": [
+        {
+          "ids": [
+            "335",
+            "336"
+          ],
+          "reasons": [
+            "copy similarity 62%"
+          ]
+        }
+      ]
+    },
+    {
+      "members": [
+        {
+          "id": "338",
+          "product_code": "BT041",
+          "title": "Red 2 Light Wall Sconce, Sculptural Wall Lamp, White Fabric Shades, Modern Wall Light, Artistic Sconce, Living Room Bedroom Lighting décor. red",
+          "finish": "Red",
+          "category": "wall-light",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/wall-light/338/red-2-light-wall-sconce-sculptural-wall-lamp-white-fabric-shades-modern-wall-light-artistic-sconce-living-room-bedroom-lighting-dcor",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/560912827.png",
+            "https://beautyartlights.com/media/product/955389096.png",
+            "https://beautyartlights.com/media/product/674807416.png",
+            "https://beautyartlights.com/media/product/148019182.png",
+            "https://beautyartlights.com/media/product/299371215.png",
+            "https://beautyartlights.com/media/product/878647376.jpg"
+          ],
+          "description_chars": 877
+        },
+        {
+          "id": "339",
+          "product_code": "BT042",
+          "title": "3 Light Wall Sconce, Modern Brass Wall Lamp, Sculptural Lighting, Bedroom Sconce, Living Room Light, Handmade Accent Home lighting Fixture. golden",
+          "finish": "Gold Brass",
+          "category": "wall-light",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/wall-light/339/3-light-wall-sconce-modern-brass-wall-lamp-sculptural-lighting-bedroom-sconce-living-room-light-handmade-accent-home-lighting-fixture",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/867668714.png",
+            "https://beautyartlights.com/media/product/206818273.png",
+            "https://beautyartlights.com/media/product/320132488.png",
+            "https://beautyartlights.com/media/product/207141741.png",
+            "https://beautyartlights.com/media/product/511941279.png",
+            "https://beautyartlights.com/media/product/287450310.jpg"
+          ],
+          "description_chars": 961
+        }
+      ],
+      "finishes": [
+        "Gold Brass",
+        "Red"
+      ],
+      "pair_reasons": [
+        {
+          "ids": [
+            "338",
+            "339"
+          ],
+          "reasons": [
+            "copy similarity 51%"
+          ]
+        }
+      ]
+    },
+    {
+      "members": [
+        {
+          "id": "349",
+          "product_code": "BT050",
+          "title": "Antique Brass 3 Light Wall Sconce, Modern Wall Lamp, Brass Vanity Light, Bedroom Lighting, Living Room Sconce, Hallway Accent Light Décor. golden",
+          "finish": "Gold Brass",
+          "category": "vertical-lights",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/vertical-lights/349/antique-brass-3-light-wall-sconce-modern-wall-lamp-brass-vanity-light-bedroom-lighting-living-room-sconce-hallway-accent-light-dcor",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/331527255.png",
+            "https://beautyartlights.com/media/product/746766442.png",
+            "https://beautyartlights.com/media/product/349562218.png",
+            "https://beautyartlights.com/media/product/665235252.png",
+            "https://beautyartlights.com/media/product/994064243.png",
+            "https://beautyartlights.com/media/product/285528002.jpg"
+          ],
+          "description_chars": 842
+        },
+        {
+          "id": "350",
+          "product_code": "BT051",
+          "title": "Matte Black 3 Light Wall Sconce, a Modern Vertical Wall Lamp with White Shades, Contemporary Bedroom Hallway Lighting Fixture for Home Décor matte black",
+          "finish": "Matte Black",
+          "category": "vertical-lights",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/vertical-lights/350/matte-black-3-light-wall-sconce-a-modern-vertical-wall-lamp-with-white-shades-contemporary-bedroom-hallway-lighting-fixture-for-home-dcor",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/517968880.png",
+            "https://beautyartlights.com/media/product/590379739.png",
+            "https://beautyartlights.com/media/product/112045539.png",
+            "https://beautyartlights.com/media/product/561382529.png",
+            "https://beautyartlights.com/media/product/337241503.png",
+            "https://beautyartlights.com/media/product/546311770.jpg"
+          ],
+          "description_chars": 785
+        }
+      ],
+      "finishes": [
+        "Gold Brass",
+        "Matte Black"
+      ],
+      "pair_reasons": [
+        {
+          "ids": [
+            "349",
+            "350"
+          ],
+          "reasons": [
+            "copy similarity 50%"
+          ]
+        }
+      ]
+    },
+    {
+      "members": [
+        {
+          "id": "358",
+          "product_code": "BT059",
+          "title": "Matte Black Wall Sconce, Gold Interior Décor, Modern Cone Shade Wall Lamp, Adjustable Arm Lighting Fixture for Bedroom Living Room Hallway. matte black",
+          "finish": "Matte Black",
+          "category": "wall-light",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/wall-light/358/matte-black-wall-sconce-gold-interior-dcor-modern-cone-shade-wall-lamp-adjustable-arm-lighting-fixture-for-bedroom-living-room-hallway",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/786395577.png",
+            "https://beautyartlights.com/media/product/959395290.png",
+            "https://beautyartlights.com/media/product/628452901.png",
+            "https://beautyartlights.com/media/product/822166411.png",
+            "https://beautyartlights.com/media/product/474224158.png",
+            "https://beautyartlights.com/media/product/475954706.jpg"
+          ],
+          "description_chars": 915
+        },
+        {
+          "id": "360",
+          "product_code": "BT061",
+          "title": "Gold Brass Wall Sconce, Modern Gold Wall Lamp, Brass Wall Light, Cone Shade Sconce, Minimalist Bedroom Light, Luxury Reading Wall Lamp. golden",
+          "finish": "Gold Brass",
+          "category": "wall-light",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/wall-light/360/gold-brass-wall-sconce-modern-gold-wall-lamp-brass-wall-light-cone-shade-sconce-minimalist-bedroom-light-luxury-reading-wall-lamp",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/562235631.png",
+            "https://beautyartlights.com/media/product/249314829.png",
+            "https://beautyartlights.com/media/product/841043779.png",
+            "https://beautyartlights.com/media/product/723445997.png",
+            "https://beautyartlights.com/media/product/278857028.png",
+            "https://beautyartlights.com/media/product/512827011.jpg"
+          ],
+          "description_chars": 766
+        }
+      ],
+      "finishes": [
+        "Gold Brass",
+        "Matte Black"
+      ],
+      "pair_reasons": [
+        {
+          "ids": [
+            "358",
+            "360"
+          ],
+          "reasons": [
+            "copy similarity 46%"
+          ]
+        }
+      ]
+    },
+    {
+      "members": [
+        {
+          "id": "361",
+          "product_code": "BT062",
+          "title": "Gold Brass Double Wall Sconce, Elegant 2 Light Wall Lamp with White Shades, Luxury Bedroom Living Room Lighting Home Fixture Wall Décor Item golden",
+          "finish": "Gold Brass",
+          "category": "wall-light",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/wall-light/361/gold-brass-double-wall-sconce-elegant-2-light-wall-lamp-with-white-shades-luxury-bedroom-living-room-lighting-home-fixture-wall-dcor-item",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/622705741.png",
+            "https://beautyartlights.com/media/product/559809339.png",
+            "https://beautyartlights.com/media/product/347227546.png",
+            "https://beautyartlights.com/media/product/496087813.png",
+            "https://beautyartlights.com/media/product/762775957.png",
+            "https://beautyartlights.com/media/product/909053583.jpg"
+          ],
+          "description_chars": 884
+        },
+        {
+          "id": "362",
+          "product_code": "BT063",
+          "title": "Wall Light Antique brass Double Stem Sconce, Elegant Modern Wall Fixture with White Fabric Shades for Bedroom & Luxury Living Space Antique Brass",
+          "finish": "Antique Brass",
+          "category": "wall-light",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/wall-light/362/wall-light-antique-brass-double-stem-sconce-elegant-modern-wall-fixture-with-white-fabric-shades-for-bedroom-luxury-living-space",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/302899915.png",
+            "https://beautyartlights.com/media/product/206589008.png",
+            "https://beautyartlights.com/media/product/189457289.png",
+            "https://beautyartlights.com/media/product/142182100.png",
+            "https://beautyartlights.com/media/product/872553296.png",
+            "https://beautyartlights.com/media/product/334570886.jpg"
+          ],
+          "description_chars": 876
+        }
+      ],
+      "finishes": [
+        "Antique Brass",
+        "Gold Brass"
+      ],
+      "pair_reasons": [
+        {
+          "ids": [
+            "361",
+            "362"
+          ],
+          "reasons": [
+            "copy similarity 56%"
+          ]
+        }
+      ]
+    },
+    {
+      "members": [
+        {
+          "id": "363",
+          "product_code": "BT064",
+          "title": "Matte Black Wall Sconce, Gold Accent Fixture, Modern Bedroom Wall Lamp, Industrial Wall Light, Contemporary Lighting Home Decoration Item. matte black",
+          "finish": "Matte Black",
+          "category": "wall-light",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/wall-light/363/matte-black-wall-sconce-gold-accent-fixture-modern-bedroom-wall-lamp-industrial-wall-light-contemporary-lighting-home-decoration-item",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/633882609.png",
+            "https://beautyartlights.com/media/product/638093723.png",
+            "https://beautyartlights.com/media/product/697151662.png",
+            "https://beautyartlights.com/media/product/564027726.png",
+            "https://beautyartlights.com/media/product/208205566.png",
+            "https://beautyartlights.com/media/product/236714173.jpg"
+          ],
+          "description_chars": 868
+        },
+        {
+          "id": "364",
+          "product_code": "BT065",
+          "title": "Gold Brass Wall Sconce, Modern Brass Wall Lamp, Gold Sconce Light, Bedroom Lighting, Reading Light, Entryway & Living Room Light Hallway golden",
+          "finish": "Gold",
+          "category": "wall-light",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/wall-light/364/gold-brass-wall-sconce-modern-brass-wall-lamp-gold-sconce-light-bedroom-lighting-reading-light-entryway-living-room-light-hallway",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/503367062.png",
+            "https://beautyartlights.com/media/product/973895908.png",
+            "https://beautyartlights.com/media/product/513080370.png",
+            "https://beautyartlights.com/media/product/601540525.png",
+            "https://beautyartlights.com/media/product/315684848.png",
+            "https://beautyartlights.com/media/product/787557328.jpg"
+          ],
+          "description_chars": 779
+        }
+      ],
+      "finishes": [
+        "Gold",
+        "Matte Black"
+      ],
+      "pair_reasons": [
+        {
+          "ids": [
+            "363",
+            "364"
+          ],
+          "reasons": [
+            "copy similarity 48%"
+          ]
+        }
+      ]
+    },
+    {
+      "members": [
+        {
+          "id": "367",
+          "product_code": "BT067",
+          "title": "Matte Black Wall Lamp Modern Cone Wall Sconce, Luxury Nordic Bedroom Bedside Lamp, Mid Century Industrial Home Lighting Fixture Lamp Design. matte black",
+          "finish": "Matte Black",
+          "category": "wall-light",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/wall-light/367/matte-black-wall-lamp-modern-cone-wall-sconce-luxury-nordic-bedroom-bedside-lamp-mid-century-industrial-home-lighting-fixture-lamp-design",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/638585196.png",
+            "https://beautyartlights.com/media/product/464552756.png",
+            "https://beautyartlights.com/media/product/193379944.png",
+            "https://beautyartlights.com/media/product/743770213.png",
+            "https://beautyartlights.com/media/product/910411097.png",
+            "https://beautyartlights.com/media/product/543258088.jpg"
+          ],
+          "description_chars": 627
+        },
+        {
+          "id": "368",
+          "product_code": "BT068",
+          "title": "Gold Brass Wall Sconce, Modern Cone Wall Lamp, Mid Century Bedroom Light, Handmade Metal Wall Light, Bedside Light cone-shaped metal shade. Golden",
+          "finish": "Gold Brass",
+          "category": "wall-light",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/wall-light/368/gold-brass-wall-sconce-modern-cone-wall-lamp-mid-century-bedroom-light-handmade-metal-wall-light-bedside-light-coneshaped-metal-shade",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/351509627.png",
+            "https://beautyartlights.com/media/product/539852673.png",
+            "https://beautyartlights.com/media/product/914751132.png",
+            "https://beautyartlights.com/media/product/986376350.png",
+            "https://beautyartlights.com/media/product/554881031.png",
+            "https://beautyartlights.com/media/product/538551667.jpg"
+          ],
+          "description_chars": 925
+        }
+      ],
+      "finishes": [
+        "Gold Brass",
+        "Matte Black"
+      ],
+      "pair_reasons": [
+        {
+          "ids": [
+            "367",
+            "368"
+          ],
+          "reasons": [
+            "copy similarity 46%"
+          ]
+        }
+      ]
+    },
+    {
+      "members": [
+        {
+          "id": "381",
+          "product_code": "BT080",
+          "title": "Antique Brass 3 Light Wall Sconce, Brass Wall Lamp, Modern Wall Light, White Shade Sconce, Sculptural Lighting, Elegant Home Decoration lamp golden",
+          "finish": "Gold Brass",
+          "category": "horizontal-lights",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/horizontal-lights/381/antique-brass-3-light-wall-sconce-brass-wall-lamp-modern-wall-light-white-shade-sconce-sculptural-lighting-elegant-home-decoration-lamp",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/735705584.png",
+            "https://beautyartlights.com/media/product/527525070.png",
+            "https://beautyartlights.com/media/product/266719973.png",
+            "https://beautyartlights.com/media/product/165608001.png",
+            "https://beautyartlights.com/media/product/915812457.png",
+            "https://beautyartlights.com/media/product/262394047.png"
+          ],
+          "description_chars": 867
+        },
+        {
+          "id": "382",
+          "product_code": "BT081",
+          "title": "Matte Black 3 Light Wall Sconce, Modern Wall Lamp, White Fabric Shade Lighting, Sculptural Wall Light, Bedroom, Living Room & Hallway Décor. Black",
+          "finish": "Black",
+          "category": "horizontal-lights",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/horizontal-lights/382/matte-black-3-light-wall-sconce-modern-wall-lamp-white-fabric-shade-lighting-sculptural-wall-light-bedroom-living-room-hallway-dcor",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/196035702.png",
+            "https://beautyartlights.com/media/product/492249064.png",
+            "https://beautyartlights.com/media/product/876418004.png",
+            "https://beautyartlights.com/media/product/892779352.png",
+            "https://beautyartlights.com/media/product/772982542.png",
+            "https://beautyartlights.com/media/product/823464356.png"
+          ],
+          "description_chars": 998
+        }
+      ],
+      "finishes": [
+        "Black",
+        "Gold Brass"
+      ],
+      "pair_reasons": [
+        {
+          "ids": [
+            "381",
+            "382"
+          ],
+          "reasons": [
+            "copy similarity 47%"
+          ]
+        }
+      ]
+    },
+    {
+      "members": [
+        {
+          "id": "417",
+          "product_code": "BT113",
+          "title": "Gold Brass Table Lamp, Modern Cone Shade Desk Lamp with Sculptural Arch Arm, Minimalist Metal Design, Elegant Bedside, Office & Living Room. golden",
+          "finish": "Gold",
+          "category": "table-lamps",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/table-lamps/417/gold-brass-table-lamp-modern-cone-shade-desk-lamp-with-sculptural-arch-arm-minimalist-metal-design-elegant-bedside-office-living-room",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/607352725.png",
+            "https://beautyartlights.com/media/product/744975686.png",
+            "https://beautyartlights.com/media/product/614318767.png",
+            "https://beautyartlights.com/media/product/508720756.png",
+            "https://beautyartlights.com/media/product/534523368.png",
+            "https://beautyartlights.com/media/product/677115839.jpg"
+          ],
+          "description_chars": 462
+        },
+        {
+          "id": "418",
+          "product_code": "BT114",
+          "title": "Matte Black Cone Table Lamp, Contemporary Desk Décor Lamp with Curved Neck Design | Minimal Modern Lighting Minimalist Bedside And Office. matte black",
+          "finish": "Matte Black",
+          "category": "table-lamps",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/table-lamps/418/matte-black-cone-table-lamp-contemporary-desk-dcor-lamp-with-curved-neck-design-minimal-modern-lighting-minimalist-bedside-and-office",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/118380288.png",
+            "https://beautyartlights.com/media/product/303411420.png",
+            "https://beautyartlights.com/media/product/774442919.png",
+            "https://beautyartlights.com/media/product/995887372.png",
+            "https://beautyartlights.com/media/product/181481807.jpg",
+            "https://beautyartlights.com/media/product/804325739.jpg"
+          ],
+          "description_chars": 462
+        }
+      ],
+      "finishes": [
+        "Gold",
+        "Matte Black"
+      ],
+      "pair_reasons": [
+        {
+          "ids": [
+            "417",
+            "418"
+          ],
+          "reasons": [
+            "copy similarity 100%"
+          ]
+        }
+      ]
+    },
+    {
+      "members": [
+        {
+          "id": "454",
+          "product_code": "BT150",
+          "title": "Red Table Lamp, Modern Red Dome Table Light, Sculptural Base, Accent Lighting for Bedroom, Living Room, Office, Nightstand, Console Table. Red",
+          "finish": "Red",
+          "category": "table-lamps",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/table-lamps/454/red-table-lamp-modern-red-dome-table-light-sculptural-base-accent-lighting-for-bedroom-living-room-office-nightstand-console-table",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/138897479.png",
+            "https://beautyartlights.com/media/product/810522790.png",
+            "https://beautyartlights.com/media/product/383834005.png",
+            "https://beautyartlights.com/media/product/761586851.png",
+            "https://beautyartlights.com/media/product/712127112.png",
+            "https://beautyartlights.com/media/product/775568630.jpg"
+          ],
+          "description_chars": 716
+        },
+        {
+          "id": "455",
+          "product_code": "BT151",
+          "title": "Matte Black Table Lamp, Modern Black Dome Table Light, Stylish Accent Lighting for Bedroom, Living Room, Office, Nightstand, Console Table. Matte black",
+          "finish": "Matte Black",
+          "category": "table-lamps",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/table-lamps/455/matte-black-table-lamp-modern-black-dome-table-light-stylish-accent-lighting-for-bedroom-living-room-office-nightstand-console-table",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/137831582.png",
+            "https://beautyartlights.com/media/product/187925328.png",
+            "https://beautyartlights.com/media/product/282823090.png",
+            "https://beautyartlights.com/media/product/635578522.png",
+            "https://beautyartlights.com/media/product/535607003.jpg",
+            "https://beautyartlights.com/media/product/438080643.jpg"
+          ],
+          "description_chars": 767
+        }
+      ],
+      "finishes": [
+        "Matte Black",
+        "Red"
+      ],
+      "pair_reasons": [
+        {
+          "ids": [
+            "454",
+            "455"
+          ],
+          "reasons": [
+            "copy similarity 56% · title similarity 58%"
+          ]
+        }
+      ]
+    },
+    {
+      "members": [
+        {
+          "id": "478",
+          "product_code": "BT174",
+          "title": "Modern Matte Black Desk Lamp, Adjustable Long Arm, Minimalist Industrial Table Light for Home Office, Study Room, Reading Desk, Bedroom. matte black",
+          "finish": "Matte Black",
+          "category": "table-lamps",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/table-lamps/478/modern-matte-black-desk-lamp-adjustable-long-arm-minimalist-industrial-table-light-for-home-office-study-room-reading-desk-bedroom",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/674428763.jpg",
+            "https://beautyartlights.com/media/product/564519581.jpg",
+            "https://beautyartlights.com/media/product/417368488.png",
+            "https://beautyartlights.com/media/product/644178910.jpg",
+            "https://beautyartlights.com/media/product/528200100.png",
+            "https://beautyartlights.com/media/product/117933039.jpg"
+          ],
+          "description_chars": 814
+        },
+        {
+          "id": "479",
+          "product_code": "BT175",
+          "title": "Modern Matte Black Desk Lamp, Adjustable Long Arm, Minimalist Industrial Table Light for Home Office, Study Room, Reading Desk, Bedroom red",
+          "finish": "Red",
+          "category": "table-lamps",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/table-lamps/479/modern-matte-black-desk-lamp-adjustable-long-arm-minimalist-industrial-table-light-for-home-office-study-room-reading-desk-bedroom-",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/407780848.png",
+            "https://beautyartlights.com/media/product/674921572.png",
+            "https://beautyartlights.com/media/product/935708777.png",
+            "https://beautyartlights.com/media/product/782481165.png",
+            "https://beautyartlights.com/media/product/494235993.png",
+            "https://beautyartlights.com/media/product/715566587.jpg"
+          ],
+          "description_chars": 814
+        }
+      ],
+      "finishes": [
+        "Matte Black",
+        "Red"
+      ],
+      "pair_reasons": [
+        {
+          "ids": [
+            "478",
+            "479"
+          ],
+          "reasons": [
+            "copy similarity 100% · title similarity 100%"
+          ]
+        }
+      ]
+    },
+    {
+      "members": [
+        {
+          "id": "494",
+          "product_code": "BT189",
+          "title": "Matte Black 2 Light Wall Sconce, Modern Wall Lamp, Black Wall Light, Sculptural Sconce, White Shade Lighting, Elegant Home Decor interior Matte Black",
+          "finish": "Matte Black",
+          "category": "wall-light",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/wall-light/494/matte-black-2-light-wall-sconce-modern-wall-lamp-black-wall-light-sculptural-sconce-white-shade-lighting-elegant-home-decor-interior",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/629385408.png",
+            "https://beautyartlights.com/media/product/346236675.png",
+            "https://beautyartlights.com/media/product/916011246.png",
+            "https://beautyartlights.com/media/product/910631899.png",
+            "https://beautyartlights.com/media/product/167177548.png",
+            "https://beautyartlights.com/media/product/413655349.jpg"
+          ],
+          "description_chars": 854
+        },
+        {
+          "id": "495",
+          "product_code": "BT190",
+          "title": "Gold Wall Sconce, 2 Light Wall Lamp, Brass Wall Light, Modern Sculptural Sconce, White Shade Lighting, Elegant Home Décor designing lamp Gold Brass",
+          "finish": "Gold Brass",
+          "category": "wall-light",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/wall-light/495/gold-wall-sconce-2-light-wall-lamp-brass-wall-light-modern-sculptural-sconce-white-shade-lighting-elegant-home-dcor-designing-lamp",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/435247454.png",
+            "https://beautyartlights.com/media/product/897470365.png",
+            "https://beautyartlights.com/media/product/379382412.png",
+            "https://beautyartlights.com/media/product/305503459.png",
+            "https://beautyartlights.com/media/product/656250511.png",
+            "https://beautyartlights.com/media/product/616480637.jpg"
+          ],
+          "description_chars": 949
+        }
+      ],
+      "finishes": [
+        "Gold Brass",
+        "Matte Black"
+      ],
+      "pair_reasons": [
+        {
+          "ids": [
+            "494",
+            "495"
+          ],
+          "reasons": [
+            "copy similarity 45%"
+          ]
+        }
+      ]
+    },
+    {
+      "members": [
+        {
+          "id": "529",
+          "product_code": "BT224",
+          "title": "Gold Wall Sconce, 5 Light Wall Lamp, Brass Wall Light, Modern Sculptural Sconce White Shade Lighting Luxury Statement Design & Home Décor. Gold Brass",
+          "finish": "Gold Brass",
+          "category": "wall-light",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/wall-light/529/gold-wall-sconce-5-light-wall-lamp-brass-wall-light-modern-sculptural-sconce-white-shade-lighting-luxury-statement-design-home-dcor-",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/237816492.png",
+            "https://beautyartlights.com/media/product/706073524.png",
+            "https://beautyartlights.com/media/product/176080265.png",
+            "https://beautyartlights.com/media/product/236940473.png",
+            "https://beautyartlights.com/media/product/580134962.png",
+            "https://beautyartlights.com/media/product/509566984.png"
+          ],
+          "description_chars": 704
+        },
+        {
+          "id": "531",
+          "product_code": "BT226",
+          "title": "Antique Brass 5 Light Wall Sconce, Vintage Inspired Multi Arm Wall Lamp with White Shades, Classic Indoor Lighting Fixture for Home Lighting Antique brass",
+          "finish": "Antique Brass",
+          "category": "wall-light",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/wall-light/531/antique-brass-5-light-wall-sconce-vintage-inspired-multi-arm-wall-lamp-with-white-shades-classic-indoor-lighting-fixture-for-home-lighting",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/172879785.png",
+            "https://beautyartlights.com/media/product/739641768.png",
+            "https://beautyartlights.com/media/product/455705155.png",
+            "https://beautyartlights.com/media/product/382315883.png",
+            "https://beautyartlights.com/media/product/561170008.png",
+            "https://beautyartlights.com/media/product/595284071.png"
+          ],
+          "description_chars": 1234
+        }
+      ],
+      "finishes": [
+        "Antique Brass",
+        "Gold Brass"
+      ],
+      "pair_reasons": [
+        {
+          "ids": [
+            "529",
+            "531"
+          ],
+          "reasons": [
+            "copy similarity 55%"
+          ]
+        }
+      ]
+    },
+    {
+      "members": [
+        {
+          "id": "510",
+          "product_code": "BT205",
+          "title": "Red Wall Sconce, Modern Wall Light, 3 Tier Wall Lamp, Sculptural Lighting, Red Accent Light, Contemporary Art Deco Home Decor design lamp Red",
+          "finish": "Red",
+          "category": "wall-light",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/wall-light/510/red-wall-sconce-modern-wall-light-3-tier-wall-lamp-sculptural-lighting-red-accent-light-contemporary-art-deco-home-decor-design-lamp",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/984398352.png",
+            "https://beautyartlights.com/media/product/517396175.png",
+            "https://beautyartlights.com/media/product/285529973.png",
+            "https://beautyartlights.com/media/product/125223890.png",
+            "https://beautyartlights.com/media/product/226754408.png",
+            "https://beautyartlights.com/media/product/229688480.jpg"
+          ],
+          "description_chars": 721
+        },
+        {
+          "id": "512",
+          "product_code": "BT207",
+          "title": "Red Wall Light, Modern Wall Sconce, 3 Tier Wall Lamp, Sculptural Lighting, Contemporary Sconce, Statement Light, Art Deco Home Decor Design Red",
+          "finish": "Red",
+          "category": "wall-light",
+          "url": "https://beautyartlights.com/product/all-lighting/categories/wall-light/512/red-wall-light-modern-wall-sconce-3-tier-wall-lamp-sculptural-lighting-contemporary-sconce-statement-light-art-deco-home-decor-design",
+          "image_count": 6,
+          "images": [
+            "https://beautyartlights.com/media/product/431992314.png",
+            "https://beautyartlights.com/media/product/278848653.png",
+            "https://beautyartlights.com/media/product/130903279.png",
+            "https://beautyartlights.com/media/product/508308177.png",
+            "https://beautyartlights.com/media/product/647487587.png",
+            "https://beautyartlights.com/media/product/710714362.jpg"
+          ],
+          "description_chars": 700
+        }
+      ],
+      "finishes": [
+        "Red"
+      ],
+      "pair_reasons": [
+        {
+          "ids": [
+            "510",
+            "512"
+          ],
+          "reasons": [
+            "RE-LISTING: same finish (Red) + same design",
+            "copy similarity 53% · title similarity 75%"
+          ]
+        }
+      ]
+    }
+  ]
+}

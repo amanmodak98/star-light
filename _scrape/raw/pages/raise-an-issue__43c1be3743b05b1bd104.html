@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="theme-color" content="#000">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <meta name="description" content="">
+    <meta name="keyword" content="">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="https://beautyartlights.com/front/images/32x32.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="https://beautyartlights.com/front/images/64x64.png" />
+    <link href="https://beautyartlights.com/front/css/vendor/bootstrap.min.css" rel="stylesheet">
+    <link href="https://beautyartlights.com/front/css/vendor/vendor.min.css" rel="stylesheet">
+    <link href="https://beautyartlights.com/front/css/style.css?v=1792816922" rel="stylesheet">
+    <link href="https://beautyartlights.com/front/fonts/icomoon/icons.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <!-- slider css -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open%20Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://beautyartlights.com/front/css/slick.min.css">
+
+    <link rel="stylesheet" href="https://beautyartlights.com/front/flickity.min.css">
+    
+
+    
+
+
+    <style media="screen">
+        .carousel-cell {
+            width: 66%;
+            margin-right: 10px;
+        }
+
+        .carousel-cell:before {
+            display: block;
+        }
+
+        .dfBDQI {
+            display: none !important;
+
+        }
+
+        @media(max-width:768px) {
+            .jxPOhn {
+                margin-bottom: 30px !important;
+            }
+        }
+
+        .actions-list {
+            /*position: absolute;*/
+            border: 1px solid black;
+            height: 200px;
+            width: 100px;
+            /*top: 20px;*/
+            /*left: 15px;*/
+            z-index: 10;
+            background-color: pink;
+        }
+
+        .img-circle {
+            border-radius: 50%;
+
+        }
+
+        #about {
+            padding-top: 0px;
+        }
+
+        .display_block {
+            display: block;
+        }
+
+        .display_none {
+            display: none;
+        }
+
+        #real_price {
+            z-index: 99;
+            cursor: pointer;
+        }
+
+        .desktop-boxContainer {
+            margin-left: 55px !important;
+        }
+
+
+        .item a img {
+
+            width: 270px;
+            height: 270px;
+        }
+
+        .hdr-content.hdr-content-sticky {
+            background-color: #9e9f9e
+        }
+
+        .search-bg {
+            background-color: #9e9f9e;
+        }
+
+
+
+        /* Base menu styles */
+        .mmenu {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            position: relative;
+        }
+
+        .mmenu li {
+            position: relative;
+            /* Ensure positioning context for dropdowns */
+            margin: 0 15px;
+        }
+
+        .mmenu a {
+            text-decoration: none;
+            padding: 10px 15px;
+            display: block;
+            color: #333;
+        }
+
+        /* Dropdown menu styles */
+        .mmenu .dropdown-menu {
+            display: none;
+            /* Hidden by default */
+            position: absolute;
+            top: 100%;
+            /* Aligns directly below the parent item */
+            left: 0;
+            /* Aligns with the parent item's left edge */
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 10px 0;
+            list-style: none;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            min-width: 200px;
+            /* Ensures consistent width */
+        }
+
+        /* Dropdown items */
+        .mmenu .dropdown-menu li {
+            position: relative;
+        }
+
+        .mmenu .dropdown-menu a {
+            padding: 10px 15px;
+            color: #333;
+            white-space: nowrap;
+        }
+
+        .mmenu .dropdown-menu a:hover {
+            background-color: #f5f5f5;
+            color: #000;
+        }
+
+        /* Display dropdown on hover */
+        .mmenu li:hover>.dropdown-menu {
+            display: block;
+        }
+
+        /* Submenu styles (opens to the right of parent item) */
+        .mmenu .dropdown-menu .submenu {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 100%;
+            /* Opens to the right of the parent dropdown */
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 10px 0;
+            list-style: none;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+
+        .mmenu .dropdown-menu li:hover>.submenu {
+            display: block;
+        }
+    </style>
+
+
+
+
+</head>
+
+<body class="template-collection has-smround-btns has-loader-bg equal-height has-sm-container">
+    <div class="loader" id="laoder_img">
+        <img src="https://beautyartlights.com/front/img/loader00.gif" alt="loading...">
+    </div>
+    <div id="alert-ajax"></div>
+    <header class="hdr-wrap">
+        <div class="hdr-content hdr-content-sticky">
+            <div class="container">
+                <div class="row">
+                    <div class="col-auto show-mobile">
+                        <div class="menu-toggle"> <a href="javascript:void(0);" class="mobilemenu-toggle"><i
+                                    class="icon-menu"></i></a> </div>
+                    </div>
+                    <div class="col-auto hdr-logo">
+
+                                                <a href="https://beautyartlights.com" class="logo"><img
+                                srcset="https://beautyartlights.com/media/settings/1727265960.gif" alt="Logo"></a>
+                                            </div>
+                    <div class="desktop-search-bg">
+                        <div class="desktop-boxContainer">
+                            <table class="elementContainer">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <input class="search" id="search_4" onkeyup="searchbox4(this.value)"
+                                                type="text" name="search" placeholder="What are you looking for?"
+                                                autocomplete="off"
+                                                value="">
+                                        </td>
+                                        <td class="icon-wrap"><a href="javascript:void(0);" type="button"
+                                                id="search_btn_4" onclick="search_query4();"><i
+                                                    class="material-icons">search</i></a></td>
+                                    </tr>
+                                    <tr id="search_out4"></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="hdr-links-wrap col-auto ml-auto">
+                        <div class="hdr-inline-link">
+                            <div class="dropdn dropdn_wishlist">
+                                <a class="raise_an_issue" href="https://beautyartlights.com/raise-an-issue">Raise an Issue</a>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="search-bg">
+                    <div class="boxContainer">
+                        <table class="elementContainer">
+                            <tbody>
+                                <tr>
+
+                                    <td><input class="search" id="search_3" onkeyup="searchbox3(this.value)" type="text"
+                                            name="search" placeholder="What are you looking for?" autocomplete="off"
+                                            value="">
+                                    </td>
+                                    <td class="icon-wrap"><a href="javascript:void(0);" type="button" id="search_btn_3"
+                                            onclick="search_query3();"><i class="material-icons">search</i></a></td>
+                                </tr>
+                                <tr id="search_out3"></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+            <div class="hdr-nav hide-mobile nav-holder-s marg-top-15" style="background-color: #fff;"></div>
+        </div>
+        <div class="hdr">
+            <div class="hdr-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-auto show-mobile">
+                            <div class="menu-toggle"> <a href="javascript:void(0);" class="mobilemenu-toggle"><i
+                                        class="icon-menu"></i></a> </div>
+                        </div>
+                        <div class="col-auto hdr-logo">
+                                                        <a href="https://beautyartlights.com" class="logo"><img
+                                    srcset="https://beautyartlights.com/media/settings/1727265960.gif" alt="Logo"></a>
+                                                    </div>
+
+                        
+                        <div class="desktop-search-bg">
+                            <div class="desktop-boxContainer">
+                                <table class="elementContainer">
+                                    <tr>
+
+                                        <td>
+                                            <input class="search" id="search_1" onkeyup="searchbox(this.value)"
+                                                type="text" name="search" placeholder="What are you looking for?"
+                                                autocomplete="off"
+                                                value="">
+                                        </td>
+
+                                        <td class="icon-wrap">
+
+                                            <a href="javascript:void(0)" type="button" id="search_btn_1"
+                                                onclick="search_query();"><i class="material-icons">search</i></a><br>
+
+                                        </td>
+
+                                    </tr>
+
+                                    <tr id="search_out"></tr>
+
+
+                                </table>
+
+                            </div>
+                        </div>
+
+                        <div class="hdr-links-wrap col-auto ml-auto">
+                            <div class="hdr-inline-link">
+                                <div class="dropdn dropdn_wishlist">
+                                    <a class="raise_an_issue" href="https://beautyartlights.com/raise-an-issue">Raise an Issue</a>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hdr-nav hide-mobile nav-holder justify-content-center" style="background-color: #fff;">
+                        <ul class="mmenu mmenu-js">
+                            <li class="mmenu-item--simple">
+                                <a href="https://beautyartlights.com" class="active">Home</a>
+                            </li>
+
+
+                                                        <li class="mmenu-item--dropdown">
+                                <a href="javascript:void(0);">Categories</a>
+                                <!--ul >
+								  <li>
+									<a href="https://beautyartlights.com/category/all-products-/bedroom-decor">Bedroom Decor</a>
+									<ul class="submenu">
+										<li><a href="https://beautyartlights.com/category/all-products-/bedroom-decor/floor-lamp">Floor Lamp</a></li>
+									   
+									</ul>
+								  </li>
+								 
+							</ul---->
+
+                                <ul class="dropdown-menu">
+                                    
+                                                                        
+                                    <li><a
+                                            href="https://beautyartlights.com/category/all-lighting/categories/wall-clocks">Wall Clocks</a>
+                                    </li>
+                                    
+                                    <li><a
+                                            href="https://beautyartlights.com/category/all-lighting/categories/mirror-lights">Mirror Lights</a>
+                                    </li>
+                                    
+                                    <li><a
+                                            href="https://beautyartlights.com/category/all-lighting/categories/hanging-lights">Hanging Lights</a>
+                                    </li>
+                                    
+                                    <li><a
+                                            href="https://beautyartlights.com/category/all-lighting/categories/floor-lamps">Floor Lamps</a>
+                                    </li>
+                                    
+                                    <li><a
+                                            href="https://beautyartlights.com/category/all-lighting/categories/table-lamps">Table Lamps</a>
+                                    </li>
+                                    
+                                    <li><a
+                                            href="https://beautyartlights.com/category/all-lighting/categories/tripod-floor-lamps">Tripod Floor Lamps</a>
+                                    </li>
+                                    
+                                    <li><a
+                                            href="https://beautyartlights.com/category/all-lighting/categories/table-tripod-lamps">Table Tripod Lamps</a>
+                                    </li>
+                                    
+                                    <li><a
+                                            href="https://beautyartlights.com/category/all-lighting/categories/chandelier-lights">Chandelier Lights</a>
+                                    </li>
+                                    
+                                    <li><a
+                                            href="https://beautyartlights.com/category/all-lighting/categories/wall-light">Wall Lights</a>
+                                    </li>
+                                    
+                                    <li><a
+                                            href="https://beautyartlights.com/category/all-lighting/categories/vertical-lights">Vertical Lights</a>
+                                    </li>
+                                    
+                                    <li><a
+                                            href="https://beautyartlights.com/category/all-lighting/categories/horizontal-lights">Horizontal Lights</a>
+                                    </li>
+                                                                                                        </ul>
+
+
+                            </li>
+
+                            
+                            
+
+
+                                                                                                                                                                                                                                <li class="mmenu-item--simple"><a
+                                    href="https://beautyartlights.com/pages/about-us">About Us</a></li>
+                                                                                                                                                                                                                                                            <li class="mmenu-item--simple"><a
+                                    href="https://beautyartlights.com/category/all-lighting">All Products</a></li>
+                                                                                                                                                                                                                                                            <li class="mmenu-item--simple"><a
+                                    href="https://beautyartlights.com/pages/contact-us">Contact us</a></li>
+                                                                                                                                                                        <li><a href="#" data-fancybox class="modal-info-link" data-src="#contactModal">For Bulk</a>
+                            </li>
+
+                        </ul>
+
+
+
+                    </div>
+                    <div class="search-bg">
+                        <div class="boxContainer">
+                            <table class="elementContainer">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <input class="search" id="search_2" onkeyup="searchbox2(this.value)"
+                                                type="text" name="search" placeholder="What are you looking for?"
+                                                autocomplete="off"
+                                                value="">
+                                        </td>
+                                        <td class="icon-wrap"><a href="javascript:void(0);" type="button"
+                                                id="search_btn_2" onclick="search_query2();"><i
+                                                    class="material-icons">search</i></a></td>
+                                    </tr>
+                                    <tr id="search_out2"></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <div class="header-side-panel">
+        <div class="mobilemenu js-push-mbmenu">
+            <div class="mobilemenu-content">
+                <div class="mobilemenu-close mobilemenu-toggle">Close</div>
+                <div class="mobilemenu-scroll">
+                    <div class="mobilemenu-search"></div>
+                    <div class="nav-wrapper show-menu">
+                        <div class="nav-toggle">
+                            <span class="nav-back"><i class="icon-angle-left"></i></span>
+                            <span class="nav-title"></span>
+                            <a href="javascript:void(0);" class="nav-viewall">View all</a>
+                        </div>
+                        <ul class="nav nav-level-1">
+                            <li><a href="https://beautyartlights.com">Home</a></li>
+                            <li>
+                                <a href="javascript:void(0);">Categories<span class="arrow"><i
+                                            class="icon-angle-right"></i></span></a>
+                                                                <ul class="nav-level-2">
+                                                                                                            
+                                    <li><a href="https://beautyartlights.com/category/all-lighting">All Lighting<span class="arrow"><i
+                                                    class="icon-angle-right"></i></span></a>
+                                        
+
+                                        <ul class="nav-level-3">
+                                                                                        <li><a href="https://beautyartlights.com/category/all-lighting/categories">Categories<span
+                                                        class="arrow"><i class="icon-angle-right"></i></span></a>
+
+                                                
+                                                
+                                                <ul>
+                                                                                                        <li><a
+                                                            href="https://beautyartlights.com/category/all-lighting/categories/wall-clocks">Wall Clocks</a>
+                                                    </li>
+                                                                                                        <li><a
+                                                            href="https://beautyartlights.com/category/all-lighting/categories/mirror-lights">Mirror Lights</a>
+                                                    </li>
+                                                                                                        <li><a
+                                                            href="https://beautyartlights.com/category/all-lighting/categories/hanging-lights">Hanging Lights</a>
+                                                    </li>
+                                                                                                        <li><a
+                                                            href="https://beautyartlights.com/category/all-lighting/categories/floor-lamps">Floor Lamps</a>
+                                                    </li>
+                                                                                                        <li><a
+                                                            href="https://beautyartlights.com/category/all-lighting/categories/table-lamps">Table Lamps</a>
+                                                    </li>
+                                                                                                        <li><a
+                                                            href="https://beautyartlights.com/category/all-lighting/categories/tripod-floor-lamps">Tripod Floor Lamps</a>
+                                                    </li>
+                                                                                                        <li><a
+                                                            href="https://beautyartlights.com/category/all-lighting/categories/table-tripod-lamps">Table Tripod Lamps</a>
+                                                    </li>
+                                                                                                        <li><a
+                                                            href="https://beautyartlights.com/category/all-lighting/categories/chandelier-lights">Chandelier Lights</a>
+                                                    </li>
+                                                                                                        <li><a
+                                                            href="https://beautyartlights.com/category/all-lighting/categories/wall-light">Wall Lights</a>
+                                                    </li>
+                                                                                                        <li><a
+                                                            href="https://beautyartlights.com/category/all-lighting/categories/vertical-lights">Vertical Lights</a>
+                                                    </li>
+                                                                                                        <li><a
+                                                            href="https://beautyartlights.com/category/all-lighting/categories/horizontal-lights">Horizontal Lights</a>
+                                                    </li>
+                                                                                                    </ul>
+                                                
+                                            </li>
+                                            
+                                        </ul>
+                                                                            </li>
+                                                                                                        </ul>
+                            </li>
+
+                                                                                                                                                                                                                                <li class="mmenu-item--simple"><a
+                                    href="https://beautyartlights.com/pages/about-us">About Us</a></li>
+                                                                                                                                                                                                                                                            <li class="mmenu-item--simple"><a
+                                    href="https://beautyartlights.com/category/all-lighting">All Products</a></li>
+                                                                                                                                                                                                                                                            <li class="mmenu-item--simple"><a
+                                    href="https://beautyartlights.com/pages/contact-us">Contact us</a></li>
+                                                                                                                                                                        <li><a href="https://beautyartlights.com/raise-an-issue">Raise an Issue</a></li>
+                            <li><a href="#" data-fancybox class="modal-info-link" data-src="#contactModal">For Bulk</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="dropdn-content minicart-drop" id="dropdnMinicart">
+            <div class="dropdn-content-block">
+                <div class="dropdn-close"><span class="js-dropdn-close">Close</span></div>
+                <div class="loader" id="loader2" style="display: none;">
+                    <img src="https://beautyartlights.com/front/img/eee.gif" alt="loading...">
+                </div>
+                <div class="minicart-drop-content js-dropdn-content-scroll">
+
+                    <div id="getCart"></div>
+
+
+                </div>
+                <div class="minicart-drop-fixed js-hide-empty">
+                    <div class="loader-horizontal-sm js-loader-horizontal-sm" data-loader-horizontal=""><span></span>
+                    </div>
+                    <div class="minicart-drop-total js-minicart-drop-total row no-gutters align-items-center">
+                        <div class="minicart-drop-total-txt col-auto heading-font">Subtotal</div>
+                        <div class="minicart-drop-total-price col" id="total_amount" data-header-cart-total="">$
+                        </div>
+                    </div>
+                    <div class="minicart-drop-actions">
+                        <a href="https://beautyartlights.com/cart" class="btn btn--md btn--grey"><i
+                                class="icon-shopping-cart"></i><span>Cart Page</span></a>
+                        <a href="https://beautyartlights.com/checkout" class="btn btn--md"><i class="icon-checkout"></i><span>Check
+                                out</span></a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="drop-overlay js-dropdn-close"></div>
+        </div>
+    </div>
+
+    <!-- Page start-->
+    
+<div class="page-content">
+	<div class="holder breadcrumbs-wrap mt-0">
+	<div class="container">
+		<ul class="breadcrumbs">
+			<li><a href="https://beautyartlights.com">Home</a></li>
+			<li><span>Raise an Issue</span></li>
+		</ul>
+	</div>
+</div>
+                       	<div class="holder">
+
+	<div class="container" >
+		<div class="row justify-content-center">
+
+            <div id="" class="modal-info-content modal-info-content-sm">
+                <div class="modal-info-heading">
+                    <div class="mb-1"><i class="icon-envelope"></i></div>
+                    <h2>Raise an Issue</h2>
+                </div>
+                <form method="post" action="https://beautyartlights.com/raise_an_issue_submit" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" name="name" value="" class="form-control form-control--sm" placeholder="Name" required="">
+                                            </div>
+                    <div class="form-group">
+                        <input type="text" name="email" value="" class="form-control form-control--sm" placeholder="Email" required="">
+                                            </div>
+                    <div class="form-group">
+                        <input type="text" name="mobile" value="" class="form-control form-control--sm" placeholder="Phone Number" required="">
+                                            </div>
+                    <div class="form-group">
+                        <input type="text" name="order_id" value="" class="form-control form-control--sm" placeholder="Order Number ( if any ?)">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control textarea--height-170" name="issue" placeholder="Message" required=""></textarea>
+                                            </div>
+                    <button class="btn btn-sm" type="submit">Ask our consultant</button>
+                    <p class="p--small mt-15 mb-0">and we will contact you soon</p>
+                    <input type="hidden" name="_token" value="pMe9YmuvUwD0aDFBt0lCPXWAOGYesLV77G5ZICOO">                </form>
+            </div>
+
+		</div>
+	</div>
+</div>
+</div>
+
+<br>
+
+    <!-- Page close-->
+    <br>
+    
+    <footer class="page-footer footer-style-6 " id="footer">
+        <div class="holder ">
+            <div class="footer-shop-info">
+                <div class="container">
+                    <div class="text-icn-blocks-bg-row">
+                        <div class="text-icn-block-footer">
+                            <div class="icn">
+                                <i class="icon-trolley"></i>
+                            </div>
+                            <div class="text">
+                                <h4>Extra fast delivery</h4>
+                                <p>Your order will be delivered 3-5 business days after all of your items are available
+                                </p>
+                            </div>
+                        </div>
+                        <div class="text-icn-block-footer">
+                            <div class="icn">
+                                <i class="icon-currency"></i>
+                            </div>
+                            <div class="text">
+                                <h4>Best price</h4>
+                                <p>We'll match the product prices of key online and local competitors for immediately
+                                </p>
+                            </div>
+                        </div>
+                        <div class="text-icn-block-footer">
+                            <div class="icn">
+                                <i class="icon-diplom"></i>
+                            </div>
+                            <div class="text">
+                                <h4>Guarantee</h4>
+                                <p>If the item you want is available, we can process a return and place a new order</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row mt-0">
+                    <div class="col-lg col-xl last-mobile">
+                        <div class="footer-block">
+                            <div class="footer-logo">
+                                                                <a href="https://beautyartlights.com" class="logo"><img
+                                        srcset="https://beautyartlights.com/media/settings/1727265960.gif" alt="Logo"></a>
+                                                            </div>
+
+                            <div class="collapsed-content">
+                                <ul>
+                                    <li><i class="icon-envelope" style="font-size:15px;"></i>: <a
+                                            href="mailto:sales@beautyartlights.com"
+                                            style="font-size:11px;">sales@beautyartlights.com</a>
+                                    </li>
+                                    <li><i class="icon-phone"></i> : <a
+                                            href="tel:0">0</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <ul class="social-list">
+                                <li>
+                                    <a href=""
+                                        class="icon icon-facebook"></a>
+                                </li>
+                                <li>
+                                    <a href=""
+                                        class="icon icon-twitter"></a>
+                                </li>
+                                <li>
+                                    <a href=""
+                                        class="icon icon-google"></a>
+                                </li>
+                                <li>
+                                    <a href=""
+                                        class="icon icon-instagram"></a>
+                                </li>
+                                <li>
+                                    <a href=""
+                                        class="icon icon-youtube"></a>
+                                </li>
+                                <li>
+                                    <a href=""
+                                        class="icon icon-skype"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                                                                                <div class="col-lg col-xl">
+                        <div class="footer-block collapsed-mobile">
+                            <div class="title">
+                                <h4>About Us</h4>
+                                <span class="toggle-arrow"><span></span><span></span></span>
+                            </div>
+                            <div class="collapsed-content">
+                                <ul>
+                                                                                                                                                <li><a href="https://beautyartlights.com/pages/about-us">About Us</a></li>
+                                                                                                                                            </ul>
+                            </div>
+                        </div>
+                    </div>
+                                                            <div class="col-lg col-xl">
+                        <div class="footer-block collapsed-mobile">
+                            <div class="title">
+                                <h4>All Products</h4>
+                                <span class="toggle-arrow"><span></span><span></span></span>
+                            </div>
+                            <div class="collapsed-content">
+                                <ul>
+                                                                                                            
+                                    <li><a href="https://beautyartlights.com/category/all-lighting">All Products</a></li>
+                                                                                                                                            </ul>
+                            </div>
+                        </div>
+                    </div>
+                                                            <div class="col-lg col-xl">
+                        <div class="footer-block collapsed-mobile">
+                            <div class="title">
+                                <h4>Contact us</h4>
+                                <span class="toggle-arrow"><span></span><span></span></span>
+                            </div>
+                            <div class="collapsed-content">
+                                <ul>
+                                                                                                                                                <li><a href="https://beautyartlights.com/pages/contact-us">Contact us</a></li>
+                                                                                                                                            </ul>
+                            </div>
+                        </div>
+                    </div>
+                                                            <div class="col-lg col-xl">
+                        <div class="footer-block collapsed-mobile">
+                            <div class="title">
+                                <h4>Account details</h4>
+                                <span class="toggle-arrow"><span></span><span></span></span>
+                            </div>
+                            <div class="collapsed-content">
+                                <ul>
+                                                                        <li><a href="https://beautyartlights.com/login"><span>Log In</span></a></li>
+                                    <li><a href="https://beautyartlights.com/registration"><span>Register</span></a></li>
+
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom footer-bottom--bg">
+            <div class="container">
+                <div class="footer-copyright text-center">
+                    <a href="#">Beauty Art Lights</a> ©2024 copyright
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <div id="contactModal" style="display: none;" class="modal-info-content modal-info-content-sm">
+        <div class="modal-info-heading">
+            <div class="mb-1"><i class="icon-envelope"></i></div>
+            <h5>Enquiry for bulk </h5>
+        </div>
+        <form id="have_a_question">
+            <input type="hidden" name="_token" value="pMe9YmuvUwD0aDFBt0lCPXWAOGYesLV77G5ZICOO">            <input type="hidden" id="products_id" name="products_id" value="">
+            <label for="mail">Question</label>
+            <textarea name="question" class="form-control" id="question" cols="35" rows="6"></textarea>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" class="form-control mb-1">
+            <button type="button" onclick="have_a_question();" class="btn btn-sm btn-info">Submit</button>
+
+            <p id="msg" class="text-danger"></p>
+        </form>
+
+    </div>
+
+
+
+
+
+
+    <script src="https://beautyartlights.com/front/js/vendor-special/lazysizes.min.js"></script>
+    <script src="https://beautyartlights.com/front/js/vendor-special/ls.bgset.min.js"></script>
+    <script src="https://beautyartlights.com/front/js/vendor-special/ls.aspectratio.min.js"></script>
+    <script src="https://beautyartlights.com/front/js/vendor-special/jquery.min.js"></script>
+    <script src="https://beautyartlights.com/front/js/vendor-special/jquery.ez-plus.js"></script>
+    <script src="https://beautyartlights.com/front/js/vendor/vendor.min.js"></script>
+    <script src="https://beautyartlights.com/front/js/app-html.js"></script>
+    <script src="https://beautyartlights.com/front/js/slick.min.js"></script>
+    <script src="https://beautyartlights.com/front/js/custom.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            setTimeout(function() {
+                $("#laoder_img").fadeOut(100);
+            }, 1000)
+
+        })
+    </script>
+        <script type="text/javascript">
+        /*
+		document.addEventListener("contextmenu", function(e){
+            e.preventDefault();
+        }, false);
+		*/
+
+        (function() {
+            var options = {
+                whatsapp: "+911332351546", // WhatsApp number
+                call_to_action: "Message us", // Call to action
+                position: "right", // Position may be 'right' or 'left'
+            };
+            var proto = document.location.protocol,
+                host = "getbutton.io",
+                url = proto + "//static." + host;
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = url + '/widget-send-button/js/init.js';
+            s.onload = function() {
+                WhWidgetSendButton.init(host, proto, options);
+            };
+            var x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);
+        })();
+    </script>
+    <script>
+        // 2. This code loads the IFrame Player API code asynchronously.
+        var tag = document.createElement('script');
+
+        tag.src = "https://www.youtube.com/iframe_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+        // 3. This function creates an <iframe> (and YouTube player)
+        //    after the API code downloads.
+        var player;
+
+        function onYouTubeIframeAPIReady() {
+            player = new YT.Player('player', {
+                height: 'auto;',
+                width: '300',
+                videoId: $('#youtube_link').val(),
+                playerVars: {
+                    'playsinline': 1
+                },
+                events: {
+                    'onReady': onPlayerReady,
+                    'onStateChange': onPlayerStateChange
+                }
+            });
+        }
+
+        // 4. The API will call this function when the video player is ready.
+        function onPlayerReady(event) {
+            event.target.playVideo();
+        }
+
+        // 5. The API calls this function when the player's state changes.
+        //    The function indicates that when playing a video (state=1),
+        //    the player should play for six seconds and then stop.
+        var done = false;
+
+        function onPlayerStateChange(event) {
+            if (event.data == YT.PlayerState.PLAYING && !done) {
+                setTimeout(stopVideo, 60000);
+                done = true;
+            }
+        }
+
+        function stopVideo() {
+            player.stopVideo();
+        }
+    </script>
+
+
+
+
+</body>
+
+</html>

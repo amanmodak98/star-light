@@ -1,0 +1,28 @@
+{
+  "name": "beauty-art-lights",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "data": "node scripts/build-catalogue.mjs && node scripts/gen-redirects.mjs",
+    "images": "node scripts/optimize-images.mjs",
+    "fonts": "node scripts/download-fonts.mjs",
+    "prebuild": "npm run data",
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@phosphor-icons/react": "^2.1.10",
+    "next": "16.4.3",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "sharp": "^0.34.0",
+    "typescript": "^5.7.0"
+  }
+}

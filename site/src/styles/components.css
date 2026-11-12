@@ -1,0 +1,1429 @@
+/* ============================================================================
+   components.css — the shared components.
+
+   The catalogue is presented as printed matter: hairline rules instead of
+   shadows, square corners instead of a uniform card radius, one accent colour
+   carried through by the finish a buyer has selected. The only rounded thing
+   in the system is the finish chip, because a finish chip is meant to feel
+   like a physical sample in the hand.
+   ============================================================================ */
+
+/* ── masthead ─────────────────────────────────────────────────────────────── */
+
+.masthead {
+  border-bottom: 1px solid var(--rule);
+  background: var(--paper);
+}
+
+.masthead__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s6);
+  min-height: 4.5rem;
+  padding-block: var(--s3);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: var(--s4);
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+.brand__seal {
+  width: 2.75rem;
+  height: 2.75rem;
+  flex-shrink: 0;
+}
+
+.brand__word {
+  font-variation-settings: 'wdth' 108;
+  font-weight: 600;
+  font-size: 1.0625rem;
+  letter-spacing: 0.01em;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.brand__sub {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  font-weight: 400;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  margin-top: 2px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: clamp(0.75rem, 2vw, 2rem);
+}
+
+.nav__link {
+  font-size: 0.9375rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--ink-2);
+  padding-block: var(--s2);
+  border-bottom: 1px solid transparent;
+  transition: color var(--dur) var(--ease), border-color var(--dur) var(--ease);
+  white-space: nowrap;
+}
+
+.nav__link:hover {
+  color: var(--ink);
+}
+
+.nav__link[aria-current='page'] {
+  color: var(--ink);
+  border-bottom-color: var(--brass-3);
+}
+
+@media (max-width: 900px) {
+  .nav {
+    display: none;
+  }
+}
+
+/* On a phone the masthead has to hold the mark, the wordmark and a call to
+   action. The strapline and the button's icon are the two things that can go. */
+@media (max-width: 640px) {
+  .masthead__inner {
+    gap: var(--s4);
+  }
+
+  .masthead .btn__label-full {
+    display: none;
+  }
+
+  .masthead .btn__label-short {
+    display: inline;
+  }
+
+  .brand__sub {
+    display: none;
+  }
+
+  .brand__word {
+    font-size: 0.9375rem;
+  }
+
+  .masthead .btn {
+    padding: 0.5625rem 0.875rem;
+    font-size: 0.8125rem;
+  }
+
+  .masthead .btn__icon {
+    display: none;
+  }
+}
+
+/* ── buttons ──────────────────────────────────────────────────────────────── */
+
+.btn__label-short {
+  display: none;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s3);
+  padding: 0.8125rem 1.375rem;
+  border-radius: var(--r);
+  font-size: 0.9375rem;
+  font-weight: 500;
+  letter-spacing: -0.005em;
+  text-decoration: none;
+  border: 1px solid transparent;
+  transition: background var(--dur) var(--ease), color var(--dur) var(--ease),
+    border-color var(--dur) var(--ease), transform var(--dur) var(--ease);
+}
+
+.btn:active {
+  transform: scale(0.985);
+}
+
+.btn--primary {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.btn--primary:hover {
+  background: #2c2621;
+}
+
+.btn--secondary {
+  border-color: var(--rule-strong);
+  color: var(--ink);
+  background: transparent;
+}
+
+.btn--secondary:hover {
+  border-color: var(--ink);
+  background: var(--bone);
+}
+
+.btn--brass {
+  background: var(--brass);
+  color: #fffdf8;
+}
+
+.btn--brass:hover {
+  background: #6f5411;
+}
+
+.btn--quiet {
+  padding-inline: 0;
+  color: var(--brass);
+  text-decoration: underline;
+  text-underline-offset: 0.25em;
+}
+
+.btn--quiet:hover {
+  color: var(--ink);
+}
+
+/* The trailing glyph lives in its own circle rather than sitting naked
+   beside the label. */
+.btn__icon {
+  display: grid;
+  place-items: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.14);
+  transition: transform var(--dur) var(--ease);
+}
+
+.btn--secondary .btn__icon,
+.btn--quiet .btn__icon {
+  background: var(--bone-2);
+}
+
+.btn:hover .btn__icon {
+  transform: translate(2px, -1px);
+}
+
+.btn--quiet .btn__icon {
+  background: var(--brass-tint);
+}
+
+/* ── the specimen plate ───────────────────────────────────────────────────── */
+
+/* A product sits on a plate whose tone is lifted from that photograph's own
+   backdrop, so the image never floats in a visible rectangle. The caption is
+   separated by a hairline, the way a catalogue plate carries its caption. */
+
+.plate {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-radius: var(--r);
+  padding: 5px;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color var(--dur) var(--ease), transform var(--dur) var(--ease),
+    box-shadow var(--dur) var(--ease);
+}
+
+.plate:hover {
+  border-color: var(--rule-strong);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lift);
+}
+
+.plate__frame {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  background: var(--plate);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.plate__frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* The 2700 K glow behind the fixture, blooming on hover. */
+.plate__frame::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    58% 48% at 50% 52%,
+    color-mix(in srgb, var(--glow) 34%, transparent),
+    transparent 72%
+  );
+  opacity: 0;
+  transition: opacity var(--dur-slow) var(--ease);
+  pointer-events: none;
+}
+
+.plate:hover .plate__frame::after {
+  opacity: 1;
+}
+
+.plate__body {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--s3);
+  padding: var(--s3) var(--s2) var(--s3);
+}
+
+.plate__name {
+  font-size: 0.9375rem;
+  font-weight: 500;
+  letter-spacing: -0.012em;
+  line-height: 1.25;
+}
+
+.plate__sku {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.04em;
+  color: var(--ink-3);
+  flex-shrink: 0;
+}
+
+.plate__finish {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-2);
+  padding: var(--s3) var(--s2) 0;
+}
+
+.swatch {
+  width: 0.625rem;
+  height: 0.625rem;
+  border-radius: 999px;
+  background: var(--swatch, var(--ink-3));
+  box-shadow: inset 0 0 0 1px rgba(23, 19, 16, 0.22);
+  flex-shrink: 0;
+}
+
+/* ── grids ────────────────────────────────────────────────────────────────── */
+
+.grid-products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 15.5rem), 1fr));
+  gap: var(--s5);
+}
+
+@media (max-width: 520px) {
+  .grid-products {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--s3);
+  }
+  .plate__body {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+  }
+  .plate__name {
+    font-size: 0.8125rem;
+  }
+}
+
+/* ── the finish rail ──────────────────────────────────────────────────────── */
+
+/* The catalogue's real axis, made physical. */
+
+.rail {
+  border-block: 1px solid var(--rule);
+  padding-block: var(--s5);
+}
+
+.rail__track {
+  display: flex;
+  gap: var(--s3);
+  overflow-x: auto;
+  scroll-snap-type: x proximity;
+  padding-bottom: var(--s2);
+  scrollbar-width: none;
+}
+
+.rail__track::-webkit-scrollbar {
+  display: none;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-shrink: 0;
+  scroll-snap-align: start;
+  padding: 0.5rem 0.9375rem 0.5rem 0.5rem;
+  border: 1px solid var(--rule);
+  border-radius: var(--r-chip);
+  background: var(--paper);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--ink-2);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: border-color var(--dur) var(--ease), background var(--dur) var(--ease),
+    color var(--dur) var(--ease);
+}
+
+.chip:hover {
+  border-color: var(--ink-3);
+  color: var(--ink);
+}
+
+.chip[aria-pressed='true'],
+.chip[data-active='true'] {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--paper);
+}
+
+.chip[aria-pressed='true'] .swatch,
+.chip[data-active='true'] .swatch {
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.4);
+}
+
+.chip__count {
+  color: var(--ink-3);
+  font-weight: 400;
+}
+
+.chip[aria-pressed='true'] .chip__count,
+.chip[data-active='true'] .chip__count {
+  color: rgba(251, 248, 243, 0.62);
+}
+
+/* ── hero ─────────────────────────────────────────────────────────────────── */
+
+.hero {
+  position: relative;
+  padding-block: clamp(2.5rem, 5vw, 5.5rem) clamp(3.5rem, 7vw, 7rem);
+  overflow: hidden;
+}
+
+/* The room's own light. */
+.hero::before {
+  content: '';
+  position: absolute;
+  top: -20%;
+  right: -10%;
+  width: min(60rem, 80vw);
+  aspect-ratio: 1;
+  background: radial-gradient(
+    circle,
+    color-mix(in srgb, var(--glow) 38%, transparent) 0%,
+    transparent 62%
+  );
+  pointer-events: none;
+}
+
+.hero__inner {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.02fr);
+  gap: clamp(2rem, 5vw, 5.5rem);
+  align-items: center;
+}
+
+@media (max-width: 940px) {
+  .hero__inner {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.hero__title {
+  font-size: var(--step-6);
+  max-width: 12ch;
+}
+
+.hero__title em {
+  font-style: normal;
+  color: var(--brass);
+}
+
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s3);
+  margin-top: var(--s6);
+}
+
+/* The proof strip. Mono, because these are counts, not adjectives. */
+.proof {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(8.5rem, 1fr));
+  gap: var(--s5) var(--s6);
+  margin-top: var(--s8);
+  padding-top: var(--s5);
+  border-top: 1px solid var(--rule);
+}
+
+.proof__item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.proof__value {
+  font-family: var(--font-mono);
+  font-size: 1.375rem;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+}
+
+.proof__label {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+
+/* ── the range grid ───────────────────────────────────────────────────────── */
+
+.ranges {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: var(--s5);
+}
+
+.range {
+  grid-column: span 4;
+  display: flex;
+  flex-direction: column;
+  gap: var(--s3);
+  padding-top: var(--s4);
+  border-top: 1px solid var(--rule-strong);
+  text-decoration: none;
+  color: inherit;
+  transition: border-color var(--dur) var(--ease);
+}
+
+.range:hover {
+  border-top-color: var(--ink);
+}
+
+.range__name {
+  font-size: var(--step-2);
+  font-variation-settings: 'wdth' 104;
+  letter-spacing: -0.022em;
+  line-height: 1.08;
+}
+
+.range__meta {
+  display: flex;
+  align-items: center;
+  gap: var(--s3);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+
+.range__figure {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  background: var(--bone);
+  border-radius: var(--r);
+  overflow: hidden;
+  margin-top: var(--s2);
+}
+
+.range__figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 1000px) {
+  .range {
+    grid-column: span 6;
+  }
+}
+
+@media (max-width: 620px) {
+  .range {
+    grid-column: span 12;
+  }
+}
+
+/* ── the specification table ──────────────────────────────────────────────── */
+
+/* The sheet is grouped, not listed. One rule per cluster, and nothing between
+   the rows inside it: the label and value columns do the separating. */
+.spec__group {
+  padding-top: var(--s4);
+  margin-top: var(--s6);
+  border-top: 1px solid var(--ink);
+}
+
+.spec__group:first-child {
+  margin-top: 0;
+}
+
+.spec__group-title {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--brass);
+  margin-bottom: var(--s3);
+}
+
+.spec__row {
+  display: grid;
+  grid-template-columns: minmax(9rem, 15rem) minmax(0, 1fr);
+  gap: var(--s4);
+  padding-block: 0.3125rem;
+  align-items: baseline;
+}
+
+@media (max-width: 560px) {
+  .spec__row {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 2px;
+  }
+}
+
+.spec__key {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+
+.spec__value {
+  font-size: 0.9375rem;
+  line-height: 1.45;
+}
+
+.spec__value--mono {
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
+  letter-spacing: 0.01em;
+}
+
+/* A value the catalogue does not hold. Never blank, never invented. */
+.spec__value--pending {
+  color: var(--ink-3);
+  font-style: italic;
+}
+
+/* ── panels ───────────────────────────────────────────────────────────────── */
+
+.panel {
+  background: var(--bone);
+  border: 1px solid var(--rule);
+  border-radius: var(--r);
+  padding: clamp(1.5rem, 3vw, 2.75rem);
+}
+
+.panel--ink {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--paper);
+}
+
+.panel--ink .label {
+  color: rgba(251, 248, 243, 0.56);
+}
+
+.panel--ink .lede {
+  color: rgba(251, 248, 243, 0.76);
+}
+
+.split {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: clamp(2rem, 5vw, 5rem);
+  align-items: start;
+}
+
+@media (max-width: 900px) {
+  .split {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+/* ── the honest-columns section ───────────────────────────────────────────── */
+
+.columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(1.5rem, 4vw, 4rem);
+}
+
+@media (max-width: 760px) {
+  .columns {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.columns__head {
+  padding-bottom: var(--s4);
+  margin-bottom: var(--s4);
+  border-bottom: 1px solid var(--rule-strong);
+}
+
+.columns__item {
+  display: flex;
+  gap: var(--s3);
+  padding-block: var(--s2);
+  font-size: 0.9375rem;
+  color: var(--ink-2);
+}
+
+.columns__item::before {
+  content: '';
+  flex-shrink: 0;
+  width: 5px;
+  height: 5px;
+  margin-top: 0.6em;
+  border-radius: 999px;
+  background: var(--brass-3);
+}
+
+.columns__item--pending::before {
+  background: var(--rule-strong);
+}
+
+/* A standalone link in a definition list is a target in its own right, so it
+   gets a tap size; a link inside a sentence does not, and is left alone. */
+.dl-link {
+  display: inline-block;
+  padding-block: 0.25rem;
+}
+
+/* ── forms ────────────────────────────────────────────────────────────────── */
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s2);
+}
+
+.field__label {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+
+.field__label span {
+  color: var(--ink-3);
+  text-transform: none;
+  letter-spacing: 0.04em;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  padding: 0.6875rem 0.8125rem;
+  background: var(--paper);
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--r);
+  font-size: 0.9375rem;
+  transition: border-color var(--dur) var(--ease), background var(--dur) var(--ease);
+}
+
+.input:hover,
+.textarea:hover {
+  border-color: var(--ink-3);
+}
+
+.input:focus,
+.textarea:focus {
+  outline: none;
+  border-color: var(--brass);
+  box-shadow: 0 0 0 3px var(--brass-tint);
+}
+
+.input::placeholder,
+.textarea::placeholder {
+  color: var(--ink-3);
+}
+
+.textarea {
+  min-height: 8rem;
+  resize: vertical;
+  line-height: 1.55;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--s4);
+}
+
+.form-grid > .field--wide {
+  grid-column: 1 / -1;
+}
+
+@media (max-width: 560px) {
+  .form-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+/* The two ways an enquiry can leave, side by side. */
+.send-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s3);
+  align-items: center;
+  margin-top: var(--s5);
+}
+
+.send-options__note {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
+  color: var(--ink-3);
+}
+
+/* ── the filter rail ──────────────────────────────────────────────────────── */
+
+.catalogue {
+  display: grid;
+  grid-template-columns: 16rem minmax(0, 1fr);
+  gap: clamp(1.5rem, 3.5vw, 3.5rem);
+  align-items: start;
+}
+
+@media (max-width: 1024px) {
+  .catalogue {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.filters {
+  position: sticky;
+  top: var(--s5);
+  display: flex;
+  flex-direction: column;
+  gap: var(--s6);
+  max-height: calc(100vh - 3rem);
+  overflow-y: auto;
+  padding-right: var(--s2);
+}
+
+@media (max-width: 1024px) {
+  .filters {
+    position: static;
+    max-height: none;
+    padding: var(--s4);
+    border: 1px solid var(--rule);
+    border-radius: var(--r);
+    background: var(--bone);
+  }
+}
+
+.filters__group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s2);
+}
+
+.filters__head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--s3);
+  padding-bottom: var(--s2);
+  border-bottom: 1px solid var(--rule);
+}
+
+.filter-opt {
+  display: flex;
+  align-items: center;
+  gap: var(--s3);
+  padding: 0.3125rem 0;
+  font-size: 0.875rem;
+  color: var(--ink-2);
+  cursor: pointer;
+  transition: color var(--dur) var(--ease);
+}
+
+.filter-opt:hover {
+  color: var(--ink);
+}
+
+.filter-opt {
+  min-height: 1.75rem;
+}
+
+.filter-opt input {
+  appearance: none;
+  width: 1.125rem;
+  height: 1.125rem;
+  border: 1px solid var(--rule-strong);
+  border-radius: 2px;
+  background: var(--paper);
+  flex-shrink: 0;
+  cursor: pointer;
+  transition: background var(--dur) var(--ease), border-color var(--dur) var(--ease);
+}
+
+.filter-opt input:checked {
+  background: var(--ink);
+  border-color: var(--ink);
+  box-shadow: inset 0 0 0 2px var(--paper);
+}
+
+.filter-opt input:focus-visible {
+  outline: 2px solid var(--brass);
+  outline-offset: 2px;
+}
+
+.filter-opt__count {
+  margin-left: auto;
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  color: var(--ink-3);
+  font-variant-numeric: tabular-nums;
+}
+
+.filter-opt--disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+/* ── results bar ──────────────────────────────────────────────────────────── */
+
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--s4);
+  padding-bottom: var(--s4);
+  margin-bottom: var(--s5);
+  border-bottom: 1px solid var(--rule-strong);
+}
+
+.results__count {
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  letter-spacing: 0.04em;
+  color: var(--ink-2);
+  font-variant-numeric: tabular-nums;
+}
+
+.results__actions {
+  display: flex;
+  align-items: center;
+  gap: var(--s4);
+}
+
+/* ── product page ─────────────────────────────────────────────────────────── */
+
+.product {
+  display: grid;
+  grid-template-columns: minmax(0, 1.08fr) minmax(0, 1fr);
+  gap: clamp(2rem, 5vw, 5rem);
+  align-items: start;
+}
+
+@media (max-width: 940px) {
+  .product {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.gallery__main {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  background: var(--plate, var(--bone));
+  border: 1px solid var(--rule);
+  border-radius: var(--r);
+  overflow: hidden;
+}
+
+.gallery__main img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.gallery__thumbs {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: var(--s2);
+  margin-top: var(--s3);
+}
+
+@media (max-width: 560px) {
+  .gallery__thumbs {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.gallery__thumb {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  background: var(--plate, var(--bone));
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+  overflow: hidden;
+  padding: 0;
+  transition: border-color var(--dur) var(--ease);
+}
+
+.gallery__thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.gallery__thumb[aria-pressed='true'] {
+  border-color: var(--ink);
+}
+
+.gallery__thumb:hover {
+  border-color: var(--ink-3);
+}
+
+/* The finish selector. Each chip carries its own SKU, because in wholesale
+   trade the code is how a buyer quotes the item. */
+.finishes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s2);
+  margin-block: var(--s5);
+}
+
+.finish-opt {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.875rem;
+  border: 1px solid var(--rule);
+  border-radius: var(--r-chip);
+  background: var(--paper);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--ink-2);
+  transition: border-color var(--dur) var(--ease), background var(--dur) var(--ease),
+    color var(--dur) var(--ease);
+}
+
+.finish-opt:hover {
+  border-color: var(--ink-3);
+  color: var(--ink);
+}
+
+.finish-opt[aria-current='true'] {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--paper);
+}
+
+.finish-opt[aria-current='true'] .finish-opt__sku {
+  color: rgba(251, 248, 243, 0.6);
+}
+
+.finish-opt__sku {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
+  color: var(--ink-3);
+}
+
+.sticky-buy {
+  position: sticky;
+  top: var(--s5);
+}
+
+/* ── breadcrumb ───────────────────────────────────────────────────────────── */
+
+.crumbs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--s2);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--ink-3);
+}
+
+.crumbs a {
+  display: inline-block;
+  padding-block: 0.2rem;
+  color: var(--ink-3);
+  text-decoration: none;
+}
+
+.crumbs a:hover {
+  color: var(--ink);
+  text-decoration: underline;
+}
+
+.crumbs__sep {
+  color: var(--rule-strong);
+}
+
+/* ── footer ───────────────────────────────────────────────────────────────── */
+
+.footer {
+  border-top: 1px solid var(--rule);
+  padding-block: var(--s8) var(--s6);
+  margin-top: var(--s9);
+}
+
+.footer__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) repeat(3, minmax(0, 1fr));
+  gap: clamp(1.5rem, 4vw, 3rem);
+}
+
+@media (max-width: 860px) {
+  .footer__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 520px) {
+  .footer__grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.footer__head {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  margin-bottom: var(--s4);
+}
+
+.footer__list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--s2);
+  font-size: 0.9375rem;
+}
+
+.footer__list a {
+  display: inline-block;
+  padding-block: 0.25rem;
+  color: var(--ink-2);
+  text-decoration: none;
+}
+
+.footer__list a:hover {
+  color: var(--ink);
+  text-decoration: underline;
+}
+
+.footer__base {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: var(--s4);
+  margin-top: var(--s8);
+  padding-top: var(--s5);
+  border-top: 1px solid var(--rule);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
+  color: var(--ink-3);
+}
+
+/* ── editorial ────────────────────────────────────────────────────────────── */
+
+.prose {
+  max-width: 62ch;
+  font-size: var(--step-0);
+  line-height: 1.68;
+  color: var(--ink-2);
+}
+
+.prose > * + * {
+  margin-top: var(--s5);
+}
+
+.prose h2 {
+  font-size: var(--step-3);
+  color: var(--ink);
+  margin-top: var(--s8);
+}
+
+.prose h3 {
+  font-size: var(--step-1);
+  color: var(--ink);
+  margin-top: var(--s7);
+}
+
+.prose strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.prose ul {
+  padding-left: 1.1rem;
+}
+
+.prose li + li {
+  margin-top: var(--s2);
+}
+
+/* ── steps ────────────────────────────────────────────────────────────────── */
+
+.steps {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(1.5rem, 3vw, 3rem);
+  counter-reset: step;
+}
+
+@media (max-width: 760px) {
+  .steps {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.step {
+  padding-top: var(--s4);
+  border-top: 1px solid var(--rule-strong);
+  counter-increment: step;
+}
+
+.step::before {
+  content: '0' counter(step);
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  color: var(--brass);
+  margin-bottom: var(--s3);
+}
+
+.step h3 {
+  font-size: var(--step-1);
+  margin-bottom: var(--s3);
+}
+
+.step p {
+  color: var(--ink-2);
+  font-size: 0.9375rem;
+}
+
+/* ── empty state ──────────────────────────────────────────────────────────── */
+
+.empty {
+  grid-column: 1 / -1;
+  padding: var(--s8) var(--s5);
+  text-align: center;
+  border: 1px dashed var(--rule-strong);
+  border-radius: var(--r);
+}
+
+.empty h3 {
+  margin-bottom: var(--s3);
+}
+
+.empty p {
+  color: var(--ink-2);
+  margin-bottom: var(--s5);
+}
+
+/* ── lightbox ─────────────────────────────────────────────────────────────── */
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  display: grid;
+  place-items: center;
+  padding: var(--s5);
+  background: rgba(23, 19, 16, 0.9);
+  border: 0;
+}
+
+.lightbox__img {
+  max-width: 100%;
+  max-height: 88vh;
+  object-fit: contain;
+}
+
+.lightbox__close {
+  position: absolute;
+  top: var(--s5);
+  right: var(--s5);
+  width: 2.75rem;
+  height: 2.75rem;
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  border: 1px solid rgba(251, 248, 243, 0.28);
+  color: var(--paper);
+  transition: background var(--dur) var(--ease);
+}
+
+.lightbox__close:hover {
+  background: rgba(251, 248, 243, 0.14);
+}
+
+.lightbox__caption {
+  position: absolute;
+  bottom: var(--s5);
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  color: rgba(251, 248, 243, 0.72);
+  text-align: center;
+  max-width: 90vw;
+}
+
+/* ── the whatsapp float ───────────────────────────────────────────────────── */
+
+.wa-float {
+  position: fixed;
+  right: var(--s5);
+  bottom: var(--s5);
+  z-index: 40;
+  display: grid;
+  place-items: center;
+  width: 3.25rem;
+  height: 3.25rem;
+  border-radius: 999px;
+  background: var(--ink);
+  color: var(--paper);
+  box-shadow: var(--shadow-lift);
+  transition: transform var(--dur) var(--ease), background var(--dur) var(--ease);
+}
+
+.wa-float:hover {
+  transform: translateY(-2px);
+  background: #2c2621;
+}
+
+@media (max-width: 620px) {
+  .wa-float {
+    right: var(--s4);
+    bottom: var(--s4);
+  }
+}
+
+/* ── a frame that fills ───────────────────────────────────────────────────── */
+
+/* Editorial interiors are room shots: they fill their frame rather than sitting
+   inside it, so the crop is deliberate rather than a letterbox. */
+.plate__frame--cover img {
+  object-fit: cover;
+}
+
+.frame-fill {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* A range with no photograph reads as an index entry rather than a gap. */
+.range__figure--type {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: var(--s4);
+  background: var(--bone-2);
+}
+
+.range__type {
+  font-size: var(--step-2);
+  font-variation-settings: 'wdth' 108;
+  font-weight: 600;
+  letter-spacing: -0.022em;
+  line-height: 1.05;
+  color: var(--ink-2);
+}
+
+/* The header's range rail scrolls; fade the edge so the overflow reads as
+   scrollable rather than cut off. */
+.masthead .rail__track {
+  mask-image: linear-gradient(to right, #000 0, #000 calc(100% - 3rem), transparent 100%);
+  -webkit-mask-image: linear-gradient(to right, #000 0, #000 calc(100% - 3rem), transparent 100%);
+}
+
+/* ── the facts band ───────────────────────────────────────────────────────── */
+
+/* A row of facts, each in its own column — a manufacturer's description of
+   itself, set as a table of particulars rather than a list of paragraphs. */
+.facts {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: var(--s5);
+  margin: 0 0 clamp(3rem, 6vw, 5rem);
+  padding-top: var(--s5);
+  border-top: 1px solid var(--ink);
+}
+
+.facts > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.facts dd {
+  margin: 0;
+  font-size: 0.9375rem;
+  line-height: 1.45;
+  color: var(--ink-2);
+}
+
+@media (max-width: 1000px) {
+  .facts {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .facts {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--s4);
+  }
+}
+
+/* ── section heads ────────────────────────────────────────────────────────── */
+
+/* One message per section: the heading, then the body under it. */
+.section-head {
+  max-width: 62ch;
+  margin-bottom: clamp(2.5rem, 5vw, 4rem);
+}
+
+.section-head h2 {
+  margin-bottom: var(--s4);
+}
+
+.section-head .lede {
+  max-width: 58ch;
+}

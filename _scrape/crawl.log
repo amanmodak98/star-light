@@ -1,0 +1,59 @@
+Discovered 14 category links from homepage
+    /category/all-lighting
+    /category/all-lighting/categories/chandelier-lights
+    /category/all-lighting/categories/floor-lamps
+    /category/all-lighting/categories/hanging-lights
+    /category/all-lighting/categories/horizontal-lights
+    /category/all-lighting/categories/mirror-lights
+    /category/all-lighting/categories/table-lamps
+    /category/all-lighting/categories/table-tripod-lamps
+    /category/all-lighting/categories/tripod-floor-lamps
+    /category/all-lighting/categories/vertical-lights
+    /category/all-lighting/categories/wall-clocks
+    /category/all-lighting/categories/wall-light
+    /category/all-products-/bedroom-decor
+    /category/all-products-/bedroom-decor/floor-lamp
+  cat /category/all-lighting: declared=237 crawled=237
+  cat /category/all-lighting/categories/chandelier-lights: declared=17 crawled=17
+  cat /category/all-lighting/categories/floor-lamps: declared=27 crawled=27
+  cat /category/all-lighting/categories/hanging-lights: declared=15 crawled=15
+  cat /category/all-lighting/categories/horizontal-lights: declared=10 crawled=10
+  cat /category/all-lighting/categories/mirror-lights: declared=2 crawled=2
+  cat /category/all-lighting/categories/table-lamps: declared=25 crawled=25
+  cat /category/all-lighting/categories/table-tripod-lamps: declared=3 crawled=3
+  cat /category/all-lighting/categories/tripod-floor-lamps: declared=2 crawled=2
+  cat /category/all-lighting/categories/vertical-lights: declared=14 crawled=14
+  cat /category/all-lighting/categories/wall-clocks: declared=0 crawled=0
+  cat /category/all-lighting/categories/wall-light: declared=116 crawled=116
+  cat /category/all-products-/bedroom-decor: declared=0 crawled=0
+  cat /category/all-products-/bedroom-decor/floor-lamp: declared=0 crawled=0
+
+Fetching 237 product pages...
+   ...20/237
+   ...40/237
+   ...60/237
+   ...80/237
+   ...100/237
+   ...120/237
+   ...140/237
+   ...160/237
+   ...180/237
+   ...200/237
+   ...220/237
+
+Wrote 237 products -> data/products.json
+Wrote 14 categories -> data/categories.json
+  missing title : 0
+  missing images: 1
+  missing desc  : 220
+      no-desc: /product/all-lighting/categories/wall-light/290/bold-red-wall-light-contemporary-fixture-artistic-five-light-wall-lamp-with-white-shades-stylish-nordic-interior-lighting-for-modern-homes
+      no-desc: /product/all-lighting/categories/wall-light/297/matte-black-5-light-wall-sconce-modern-wall-lamp-sculptural-wall-light-black-white-shade-lighting-statement-home-dcor-designing-lamp
+      no-desc: /product/all-lighting/categories/wall-light/298/green-5-light-wall-sconce-modern-green-wall-lamp-with-white-shades-statement-wall-lighting-contemporary-bedroom-and-living-room-light
+      no-desc: /product/all-lighting/categories/wall-light/303/red-triple-cone-wall-light-artistic-shade-wall-sconce-contemporary-luxury-designer-lighting-fixture-modern-interiors-lighting-living-room
+      no-desc: /product/all-lighting/categories/wall-light/304/gold-brass-double-wall-sconce-elegant-2-light-wall-lamp-with-white-shades-luxury-bedroom-lighting-for-refined-home-interiors-dcor-options
+      no-desc: /product/all-lighting/categories/wall-light/305/matte-black-double-wall-sconce-modern-2-light-bedroom-wall-lamp-with-white-shades-contemporary-bedside-lighting-for-stylish-home-dcor-art
+      no-desc: /product/all-lighting/categories/wall-light/306/blue-modern-wall-light-deep-double-shade-sconce-minimalist-nordic-designer-wall-fixture-for-luxury-bedroom-contemporary-home-interiors
+      no-desc: /product/all-lighting/categories/wall-light/307/red-2-light-wall-sconce-double-arm-wall-lamp-with-white-fabric-shades-modern-red-wall-light-sculptural-bedroom-lighting-statement-decor
+      no-desc: /product/all-lighting/categories/wall-light/308/matte-black-double-wall-sconce-with-white-linen-shades-wall-light-2-light-bedroom-sconce-curved-arm-lighting-living-room-wall-lamp
+      no-desc: /product/all-lighting/categories/wall-light/309/red-double-wall-sconce-2-light-wall-lamp-with-white-fabric-shades-modern-red-wall-light-bedroom-sconce-living-room-lightingart-decolamp
+      no-img : /product/all-lighting/categories/wall-light/536/modern-brass-double-light-minimalist-gold-wall-lamp-mid-century-lighting-fixture-for-bedroom-living-room-hallway-and-luxury-home-dcor

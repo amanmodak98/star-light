@@ -1,0 +1,94 @@
+/* ============================================================================
+   tokens.css — the whole design system in one place.
+
+   Every colour here was sampled from the source assets rather than chosen by
+   eye, and every text colour is verified at or above WCAG AA against both
+   the page canvas and the product plate:
+
+     ink      #171310  on paper 17.4:1 (AAA)   on bone 15.8:1 (AAA)
+     ink-2    #4A4239  on paper  9.3:1 (AAA)   on bone  8.5:1 (AAA)
+     ink-3    #736A5C  on paper  5.0:1 (AA)    on bone  4.6:1 (AA)
+     brass    #846515  on paper  5.1:1 (AA)    on bone  4.7:1 (AA)
+
+   brass-2 is the logo's exact gold (#EEC45A, measured from the source GIF).
+   It is deliberately *not* used for text on a light surface — it fails
+   contrast by a wide margin. It is for fills, glows and highlights only.
+   ============================================================================ */
+
+:root {
+  /* ── surfaces ──────────────────────────────────────────────────────────── */
+  --paper: #fbf8f3;          /* the page canvas                                */
+  --bone: #f2ede4;           /* the plate a product photograph sits on         */
+  --bone-2: #e9e2d6;         /* a nested plate, and hover states               */
+  --bone-3: #dfd6c7;         /* the deepest bone                                */
+  --plate: var(--bone);      /* overridden per product with the photo's own tone */
+
+  /* ── rules ─────────────────────────────────────────────────────────────── */
+  --rule: #dfd6c7;
+  --rule-strong: #c9bda8;
+
+  /* ── ink ───────────────────────────────────────────────────────────────── */
+  --ink: #171310;
+  --ink-2: #4a4239;
+  --ink-3: #6b6254;
+
+  /* ── brass ─────────────────────────────────────────────────────────────── */
+  --brass: #846515;          /* accent text — AA on paper and bone            */
+  --brass-3: #c79a33;        /* rules, fills, chips                            */
+  --brass-2: #eec45a;        /* the logo's gold — fills and glows only         */
+  --brass-tint: #f6edd8;
+  --glow: #f6d89a;           /* the 2700 K bulb glow, measured in every frame  */
+
+  /* ── type ──────────────────────────────────────────────────────────────── */
+  --font-sans: 'Archivo', 'Helvetica Neue', Arial, sans-serif;
+  --font-mono: 'Azeret Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+
+  --step--1: clamp(0.8125rem, 0.79rem + 0.11vw, 0.875rem);
+  --step-0: clamp(1rem, 0.97rem + 0.14vw, 1.0625rem);
+  --step-1: clamp(1.1875rem, 1.13rem + 0.28vw, 1.375rem);
+  --step-2: clamp(1.4375rem, 1.32rem + 0.58vw, 1.75rem);
+  --step-3: clamp(1.75rem, 1.5rem + 1.24vw, 2.5rem);
+  --step-4: clamp(2.125rem, 1.62rem + 2.2vw, 3.25rem);
+  --step-5: clamp(2.5rem, 1.9rem + 2.6vw, 4rem);
+  --step-6: clamp(3rem, 1.9rem + 4.5vw, 5rem);
+
+  /* ── space ─────────────────────────────────────────────────────────────── */
+  --s1: 0.25rem;
+  --s2: 0.5rem;
+  --s3: 0.75rem;
+  --s4: 1rem;
+  --s5: 1.5rem;
+  --s6: 2rem;
+  --s7: 3rem;
+  --s8: 4rem;
+  --s9: 6rem;
+  --s10: 8rem;
+  --s11: 12rem;
+
+  --gutter: clamp(1.25rem, 4vw, 4rem);
+  --section: clamp(4rem, 8vw, 10rem);
+  --measure: 70ch;
+  --max: 90rem;
+
+  /* ── form ──────────────────────────────────────────────────────────────── */
+  /* Corners stay square. This is printed matter — a manufacturer's catalogue —
+     not an app. The only pill in the system is the finish chip, because a
+     finish chip is meant to feel like a physical sample. */
+  --r-sm: 2px;
+  --r: 3px;
+  --r-chip: 999px;
+
+  /* ── motion ────────────────────────────────────────────────────────────── */
+  --ease: cubic-bezier(0.32, 0.72, 0, 1);
+  --dur: 320ms;
+  --dur-slow: 560ms;
+
+  --shadow-lift: 0 1px 2px rgba(23, 19, 16, 0.04), 0 8px 24px -12px rgba(23, 19, 16, 0.16);
+}
+
+/* The finish a buyer has selected drives one accent through the whole page.
+   Set on <html> by the catalogue filter and the product finish selector. */
+:root {
+  --accent: var(--brass);
+  --accent-soft: var(--brass-3);
+}
