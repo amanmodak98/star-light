@@ -108,7 +108,6 @@ writeFileSync(join(SITE, 'public', '_redirects'), netlify + '\n');
 // Vercel reads vercel.json rather than _redirects.
 const vercel = {
   $schema: 'https://openapi.vercel.sh/vercel.json',
-  outputDirectory: 'out',
   trailingSlash: true,
   cleanUrls: false,
   redirects: redirects.map((r) => ({
